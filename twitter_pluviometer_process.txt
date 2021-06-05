@@ -1,0 +1,2 @@
+In the first analysis of tweets, we tried to find a relationship between several parameters
+(duration, fidelity, strength, frequency of flooding) through dispersion plots and bars (tag 1.0).
