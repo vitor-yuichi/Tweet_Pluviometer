@@ -4,3 +4,5 @@ Selecao_Alag_Vitor.dbf: This archive contain the flood in a spatial radius of 20
 P1_2019_2KM.csv/P1_2019_2K_words_freq.csv: This two archives contains all the tweets capture between 09/03/2019 - 12/03/2019 (Winson's Archive)
 re5.csv: Contain the tweets merged, 2000 meters from the pluviometer 857A (01/01/2019-12/03/2019) (Winson's Archives) 
 archive1(1).csv: Temporal series of tweets frequence, duration and flood frequence fro the second analysis 
+Alagamentos_2KM: All floods in pluviometer 857A
+01to03: All tweets from 857A pluviometer 
