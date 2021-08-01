@@ -6,3 +6,4 @@ re5.csv: Contain the tweets merged, 2000 meters from the pluviometer 857A (01/01
 archive1(1).csv: Temporal series of tweets frequence, duration and flood frequence fro the second analysis 
 Alagamentos_2KM: All floods in pluviometer 857A
 01to03: All tweets from 857A pluviometer 
+Second_window: 2,3 and 4 windows finished analysis
