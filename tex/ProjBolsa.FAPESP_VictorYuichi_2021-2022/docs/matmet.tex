@@ -1,0 +1,48 @@
+%\hypertarget{estilo:capitulo}{}
+
+\chapter{MATERIAIS E MÉTODOS} \label{MatMet}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Área de estudo e dados disponíveis} \label{AreaEstudo}
+
+
+Nos limites da área de estudo, ilustrada na Figura~\ref{areaestudo}, está inserido o município de Cáceres, estado do Mato-Grosso, que abrange aproximadamente 24,6 mil quilômetros quadrados de extensão. Este município compõe a região Centro-Sul Mato-grossense e é divido em três biomas predominantes: Amazônia, Cerrado e o Pantanal. Dentre os três biomas citados anteriormente, o Pantanal é o bioma mais expressivo no município de Cáceres, ocupando cerca de 51\% de sua área total \cite{IBGE2020}.
+
+A região apresenta uma temperatura média anual de 26,4 ${}^{\textrm{o}}\textrm{C}$ e precipitação anual média de 1,335 milímetros. Estas características compõem um clima baseado em duas estações bem definidas, um período quente e úmido, que ocorre entre dezembro e março, e um período de seca que dura de abril a novembro \cite{NevesEA2012}. Ultimamente a região do pantanal Mato-grossense enfrenta um período de seca intensa que, somado com o efeito do uso do fogo, registra 2020 como o ano com maior número de focos de incêndio da história desde 1998\footnote{https://observatoriopantanal.org/2020/07/21/pantanal-bate-recorde-historico-de-queimadas-em-22-anos/}.
+
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=\textwidth]{./figs/AreaEstudo.png}
+\caption{Área de estudo -- região do município de Cáceres, estado do Mato-Grosso.}\label{areaestudo}
+\end{figure}
+
+%%Dados disponíveis
+Para este estudo será utilizada uma série temporal composta por imagens dos satélites da série LANDSAT (óptico/multiespectral -- resolução espacial: $30 \ m$), referentes ao período entre 2000 a 2020, disponibilizadas gratuitamente pela {\itshape United States Geological Service} -- USGS\footnote{\texttt{https://earthexplorer.usgs.gov}}.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Ferramentas computacionais} \label{HardSoft}
+
+Para o desenvolvimento desta pesquisa serão empregados o software ENVI e as linguagem de programação Python. O software ENVI é de grande importância no auxílio da realização de tarefas gerais, por exemplo, redimensionamento e visualização de imagens. A linguagem Python oferece, especialmente através das bibliotecas Numpy \cite{WaltEA2011} e Scikit-Learn \cite{PedregosaEA2011}, uma série de ferramentas úteis para aplicação de métodos de classificação, regressão ou mesmo processamento de imagens.
+
+As ferramentas mencionadas acima assim como recursos de hardware necessários para a execução desta pesquisa estarão à disposição do aluno, para acesso local ou remoto, no Laboratório de Informática e Geoprocessamento do ICT/Unesp de São José dos Campos.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Plano de trabalho}
+
+Em um primeiro momento, o projeto iniciará com uma revisão bibliográfica sobre classificação e regressão de dados, em especial, envolvendo aplicações direcionadas ao sensoriamento remoto.
+Concomitantemente à revisão bibliográfica citada, será realizado o estudo da linguagem Python e do software ENVI, necessários para o cumprimento das etapas seguintes.
+
+Ainda na etapa inicial, serão feitas aquisições de imagens obtidas por satélites da série Landsat nos anos de 2000, 2005, 2010, 2015, 2019 e 2020 com finalidade de construir uma base de dados temporal. A seleção dos instantes em cada data está condicionada a ausência de cobertura de nuvem sobre a área de estudo.
+
+Posteriormente, sobre cada um dos instantes da série multitemporal, serão coletadas amostras de uso e cobertura do solo referentes as classes estabelecidas no escopo da proposta (Seção~\ref{Proposta} -- i.e.; alta, média e baixa biomassa, e outros). Em seguida, com uso do método RF, são obtidas as respectivas classificações dos instantes da série em questão, que posteriormente são usadas no cálculo de métricas espaciais para expressão das dinâmicas locais. O processo de classificação e cálculo das métricas espaciais será conduzido por funções implementadas em linguagem Python e com uso das bibliotecas Numpy e Scikit-Learn.
+
+Em consonância com o proposta delineada na Seção~\ref{Proposta}, serão coletadas amostras sobre áreas afetadas, ou não, por incêndios a fim de construir um conjunto de dados rotulados, e que por sua vez empregado na construção de um modelo de regressão logística. A modelagem em questão será alcançada com uso das mesmas ferramentas computacionais citadas anteriormente.
+
+Em posse do modelo de regressão, serão feitas extrapolações para todas as localidades (i.e., pixels) inseridas na área de estudo, proporcionando assim um mapa de suscetibilidade de ocorrência de incêndios. A avaliação deste modelo é efetuada através da observação/comparação com regiões onde é confirmada a ocorrência, ou não, de incêndio.
+
+Por fim, a partir dos resultados, análises e conclusões obtidas, serão redigidos o relatório de atividades e trabalhos para divulgação em evento ou, se possível, periódico científico.
+

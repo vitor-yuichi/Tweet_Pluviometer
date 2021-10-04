@@ -1,0 +1,175 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Albuquerque et al. 2015]{de2015geographic}
+\abntrefinfo{Albuquerque et al.}{ALBUQUERQUE et al.}{2015}
+{ALBUQUERQUE, J.~P. D.; HERFORT, B.; BRENNING, A.; ZIPF, A. A geographic
+  approach for combining social media and authoritative data towards
+  identifying useful information for disaster management.
+\textbf{International journal of geographical information science}, Taylor \&
+  Francis, v.~29, n.~4, p. 667--689, 2015.}
+
+
+\bibitem[Andrade et al. 2021]{de2021effect}
+\abntrefinfo{Andrade et al.}{ANDRADE et al.}{2021}
+{ANDRADE, S.~C. de; ALBUQUERQUE, J. Porto~de; RESTREPO-ESTRADA, C.; WESTERHOLT,
+  R.; RODRIGUEZ, C. A.~M.; MENDIONDO, E.~M.; DELBEM, A. C.~B. The effect of
+  intra-urban mobility flows on the spatial heterogeneity of social media
+  activity: investigating the response to rainfall events.
+\textbf{International Journal of Geographical Information Science}, Taylor \&
+  Francis, p. 1--26, 2021.}
+
+
+\bibitem[andW 1948]{marshall1948mc}
+\abntrefinfo{andW}{ANDW}{1948}
+{ANDW, J. M. Mc. k. palmer,“the distribution of raindrops with size,”.
+\textbf{J. Meteor}, v.~5, p. 165--166, 1948.}
+
+
+\bibitem[Braga 2016]{braga2016alagamentos}
+\abntrefinfo{Braga}{BRAGA}{2016}
+{BRAGA, J.~O. Alagamentos e inunda{\c{c}}{\~o}es em {\'a}reas urbanas: estudo
+  de caso na cidade de santa maria-df.
+2016.}
+
+
+\bibitem[Breiman 2001]{breiman2001random}
+\abntrefinfo{Breiman}{BREIMAN}{2001}
+{BREIMAN, L. Random forests.
+\textbf{Machine learning}, Springer, v.~45, n.~1, p. 5--32, 2001.}
+
+
+\bibitem[Deparday et al. 2019]{deparday2019machine}
+\abntrefinfo{Deparday et al.}{DEPARDAY et al.}{2019}
+{DEPARDAY, V.; GEVAERT, C.~M.; MOLINARIO, G.; SODEN, R.; BALOG-WAY, S. Machine
+  learning for disaster risk management.
+World Bank, 2019.}
+
+
+\bibitem[Doocy et al. 2013]{doocy2013human}
+\abntrefinfo{Doocy et al.}{DOOCY et al.}{2013}
+{DOOCY, S.; DANIELS, A.; MURRAY, S.; KIRSCH, T.~D. The human impact of floods:
+  a historical review of events 1980-2009 and systematic literature review.
+\textbf{PLoS currents}, Public Library of Science, v.~5, 2013.}
+
+
+\bibitem[Gardner e Dorling 1998]{gardner1998artificial}
+\abntrefinfo{Gardner e Dorling}{GARDNER; DORLING}{1998}
+{GARDNER, M.~W.; DORLING, S. Artificial neural networks (the multilayer
+  perceptron)—a review of applications in the atmospheric sciences.
+\textbf{Atmospheric environment}, Elsevier, v.~32, n. 14-15, p. 2627--2636,
+  1998.}
+
+
+\bibitem[Hansmann 2013]{hansmann2013descriccao}
+\abntrefinfo{Hansmann}{HANSMANN}{2013}
+{HANSMANN, H.~Z. Descri{\c{c}}{\~a}o e caracteriza{\c{c}}{\~a}o das principais
+  enchentes e alagamentos de pelotas-rs.
+\textbf{Universidade Federal de Pelotas, Pelotas-RS}, 2013.}
+
+
+\bibitem[Hirata et al. 2013]{hirata2013mapeamento}
+\abntrefinfo{Hirata et al.}{HIRATA et al.}{2013}
+{HIRATA, E.; GIANNOTTI, M.~A.; LAROCCA, A. P.~C.; QUINTANILHA, J.~A. Mapeamento
+  din{\^a}mico e colaborativo de alagamentos na cidade de s{\~a}o paulo.
+\textbf{Boletim de Ci{\^e}ncias Geod{\'e}sicas}, SciELO Brasil, v.~19, p.
+  602--623, 2013.}
+
+
+\bibitem[Horita et al. 2015]{horita2015development}
+\abntrefinfo{Horita et al.}{HORITA et al.}{2015}
+{HORITA, F.~E.; ALBUQUERQUE, J.~P. de; DEGROSSI, L.~C.; MENDIONDO, E.~M.;
+  UEYAMA, J. Development of a spatial decision support system for flood risk
+  management in brazil that combines volunteered geographic information with
+  wireless sensor networks.
+\textbf{Computers \& Geosciences}, Elsevier, v.~80, p. 84--94, 2015.}
+
+
+\bibitem[Kobiyama et al. 2006]{kobiyama2006prevenccao}
+\abntrefinfo{Kobiyama et al.}{KOBIYAMA et al.}{2006}
+{KOBIYAMA, M.; MENDON{\c{C}}A, M.; MORENO, D.~A.; MARCELINO, I.; MARCELINO,
+  E.~V.; GON{\c{C}}ALVES, E.~F.; BRAZETTI, L.~L.; GOERL, R.~F.; MOLLERI, G.~S.;
+  RUDORFF, F. d.~M. \textbf{Preven{\c{c}}{\~a}o de desastres naturais:
+  conceitos b{\'a}sicos}. [S.l.]: Organic Trading Curitiba, 2006.}
+
+
+\bibitem[Lian e Lu 2006]{lian2006multi}
+\abntrefinfo{Lian e Lu}{LIAN; LU}{2006}
+{LIAN, H.-C.; LU, B.-L. Multi-view gender classification using local binary
+  patterns and support vector machines. In:  SPRINGER. \textbf{International
+  Symposium on Neural Networks}. [S.l.], 2006. p. 202--209.}
+
+
+\bibitem[Liu et al. 2020]{liu2020random}
+\abntrefinfo{Liu et al.}{LIU et al.}{2020}
+{LIU, D.; FAN, Z.; FU, Q.; LI, M.; FAIZ, M.~A.; ALI, S.; LI, T.; ZHANG, L.;
+  KHAN, M.~I. Random forest regression evaluation model of regional flood
+  disaster resilience based on the whale optimization algorithm.
+\textbf{Journal of Cleaner Production}, Elsevier, v.~250, p. 119468, 2020.}
+
+
+\bibitem[Maselli e Negri 2019]{maselli2019integraccao}
+\abntrefinfo{Maselli e Negri}{MASELLI; NEGRI}{2019}
+{MASELLI, L.~Z.; NEGRI, R.~G. Integra{\c{c}}{\~a}o entre estrat{\'e}gias
+  multiclasses e diferentes fun{\c{c}}{\~o}es kernel em m{\'a}quinas de vetores
+  suporte para classifica{\c{c}}{\~a}o de imagens de sensoriamento remoto.
+\textbf{Revista Brasileira de Cartografia}, v.~71, n.~1, p. 149--175, 2019.}
+
+
+\bibitem[Mohri et al. 2018]{mohri2018foundations}
+\abntrefinfo{Mohri et al.}{MOHRI et al.}{2018}
+{MOHRI, M.; ROSTAMIZADEH, A.; TALWALKAR, A. \textbf{Foundations of machine
+  learning}. [S.l.]: MIT press, 2018.}
+
+
+\bibitem[Naaman 2011]{naaman2011geographic}
+\abntrefinfo{Naaman}{NAAMAN}{2011}
+{NAAMAN, M. Geographic information from georeferenced social media data.
+\textbf{SIGSPATIAL Special}, ACM New York, NY, USA, v.~3, n.~2, p. 54--61,
+  2011.}
+
+
+\bibitem[Quevedo et al. 2020]{pacheco2020mapeamento}
+\abntrefinfo{Quevedo et al.}{QUEVEDO et al.}{2020}
+{QUEVEDO, R. P.; OLIVEIRA, G. Garcia~de; GUASSELLI, L. A. Mapeamento de
+  suscetibilidade a movimentos de massa a partir de redes neurais artificiais.
+\textbf{Anuario do Instituto de Geociencias}, v.~43, n.~2, 2020.}
+
+
+\bibitem[Santos 2013]{santos2013impactos}
+\abntrefinfo{Santos}{SANTOS}{2013}
+{SANTOS, E. T.~d.
+\textbf{Impactos econ{\^o}micos de desastres naturais em megacidades: o caso
+  dos alagamentos em S{\~a}o Paulo}.
+Tese (Doutorado) --- Universidade de S{\~a}o Paulo, 2013.}
+
+
+\bibitem[Silva et al. 2016]{da2016utilizaccao}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2016}
+{SILVA, M.~R. da; SANTOS, L. B.~L.; SCOFIELD, G.~B.; CORTIVO, F.~D.
+  Utiliza{\c{c}}{\~a}o de redes neurais artificiais em alertas
+  hidrol{\'o}gicos: Estudo de caso na bacia do rio claro em caraguatatuba,
+  estado de s{\~a}o paulo.
+\textbf{Anu{\'a}rio do Instituto de Geoci{\^e}ncias}, v.~39, n.~1, p. 23--31,
+  2016.}
+
+
+\bibitem[Theodoridis et al. 2010]{theodoridis2010introduction}
+\abntrefinfo{Theodoridis et al.}{THEODORIDIS et al.}{2010}
+{THEODORIDIS, S.; PIKRAKIS, A.; KOUTROUMBAS, K.; CAVOURAS, D.
+  \textbf{Introduction to pattern recognition: a matlab approach}. [S.l.]:
+  Academic Press, 2010.}
+
+
+\bibitem[Zhu e Zhang 2021]{zhu2021flood}
+\abntrefinfo{Zhu e Zhang}{ZHU; ZHANG}{2021}
+{ZHU, Z.; ZHANG, Y. Flood disaster risk assessment based on random forest
+  algorithm.
+\textbf{Neural Computing and Applications}, Springer, p. 1--13, 2021.}
+
+
+\end{thebibliography}

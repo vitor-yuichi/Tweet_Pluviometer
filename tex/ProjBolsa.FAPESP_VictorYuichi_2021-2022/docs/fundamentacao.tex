@@ -1,0 +1,90 @@
+\chapter{FUNDAMENTAÇÃO TEÓRICA}\label{Rev}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Classificação e regressão}\label{revClassRegress}
+
+Estudos em Sensoriamento Remoto com foco na classificação de imagens tem atraído a atenção da comunidade científica, pois os resultados provenientes destas técnicas servem de base para diversas aplicações ambientais e socioeconômicas. 
+%Porém, a classificação de imagens de Sensoriamento Remoto, de forma a criar um mapa temático é um desafio, uma vez que a complexidade da paisagem, a escolha da imagem, o processamento e abordagem de classificação podem afetar o sucesso do procedimento. 
+Sua importância têm motivado ainda o desenvolvimento de novas propostas capazes de proporcionar resultados de classificação cada vez mais acurados \cite{lu2007}.
+
+Um classificador é representado por uma função $F: \mathcal{X} \rightarrow \mathcal{Y}$ , que associa elementos do espaço de atributos $\mathcal{X}$ a uma das classes de $\Omega = \left\{ \omega_{1}, \omega_{2}, \ldots, \omega_{c}\right\}$, com $c \in \mathbb{N}^{*}$, a partir de um dado rótulo (indicador) de classe em $\mathcal{Y} = \left\{ 1,2,\ldots,c\right\}$. Nestas condições, para $\textbf{x} \in \mathcal{X}$ e $y \in \mathcal{Y}$, $y = F(\textbf{x})$ indica que $\textbf{x}$ pertence à classe $\omega_{y}$.
+
+A classificação de imagens consiste na aplicação de $F$ sobre os vetores de atributos dos pixels (padrões) que compõem uma imagem $\mathcal{I}$, definida sobre um reticulado (suporte) $\mathcal{S} \subset \mathbb{N}^{2}$, cujo resultado de classificação pode ser denotado por $F(\mathcal{I})$. Com relação à imagem em que é conduzido o processo de classificação, $\mathcal{I}(s) = \mathbf{x}$, denota que o pixel $s \in \mathcal{S}$ de $\mathcal{I}$ possui atributos representados pelo vetor $\mathbf{x} \in \mathcal{X}$, ainda $C(s) = \omega_{y}$ tal que $F(\textbf{x})=y$.
+
+Os diferentes métodos de classificação de imagem propostos na literatura podem ser entendidos como maneiras distintas de modelar a função $F: \mathcal{X} \rightarrow \mathcal{Y}$ e aplicá-la na classificação de $\mathcal{I}$. Os paradigmas supervisionado e não supervisionado são duas formas/abordagens usualmente adotadas pelos métodos de classificação de imagens. No aprendizado supervisionado são fornecidos ao método um conjunto de exemplos de treinamento $\mathcal{D} = \left\{ (\mathbf{x}_{i}, y_{i})\in \mathcal{X} \times \mathcal{Y} : i = 1,2,\ldots,m \right\}$ composto por $m \in \mathbb{N}^{*}$ vetores, onde seus respectivos rótulos da classe associada são conhecidos. Então, o mapeamento entre $\mathcal{X}$ e $\mathcal{Y}$ definido por $F$ representa o conhecimento adquirido das informações observadas em $\mathcal{D}$. %No aprendizado não supervisionado, os dados são analisados pelo algoritmo, a fim de definir agrupamentos sobre os mesmos \cite{monard2003}.
+Métodos como Máquina de Vetores Suporte e Florestas Aleatórias têm mostrado eficiência na classificação de imagens de sensoriamento remoto \cite{LiEA2014}.
+
+
+
+Em analogia aos métodos de classificação, um modelo de regressão abrange a
+obtenção de uma função $G:\mathcal{X} \rightarrow \mathbb{R}$, que uma vez modelada através de um conjunto de observações $\mathcal{D} = \left\{ (\mathbf{x}_{i}, y_{i})\in \mathcal{X} \times \mathbb{R} : i = 1,2,\ldots,m \right\}$, permite extrapolar valores reais face a um dado vetor de atributos.
+Dentre diversos modelos existentes na literatura, a Regressão Logística, tem sido amplamente empregada na estimação da probabilidade de pertinência ``elemento-classes'' em casos de associação binária (i.e., envolvendo apenas duas classes) \cite{Geron2019}, o qual pode ser entendido como uma composição entre as função linear e sigmoide, ou seja:
+\begin{equation}\label{eqC9ModLogit}
+g(\mathbf{x};\mathbf{\theta}) = \frac{1}{1+e^{-\left( \mathbf{\theta}^T \mathbf{x} \right)}}.
+\end{equation}
+
+
+
+Devido a sua estrutura sigmoide, possui imagem definida sobre o intervalo $[0,1]$. No contexto dos problemas de classificação\footnote{As classes mencionadas podem ser interpretadas como ``ausência'' ou ``presença'' de determinada característica.}, $g(\mathbf{x}_i;\mathbf{\theta}) < 0,5$ implica que $\mathbf{x}_i$ deve pertencer à classe de indicador $0$; analogamente, deverá estar associado à classe de indicador $1$ quando $g(\mathbf{x}_i;\mathbf{\theta}) \geq 0,5$. Ainda, é possível interpretar os resultados gerados como uma ``probabilidade de pertinência'' que migra gradativamente entre duas condições opostas.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Métricas espaciais}\label{revMetricas}
+
+Métricas espaciais são medidas derivadas da análise digital de mapas a fim de quantificar a heterogeneidade espacial em uma determinada escala e resolução \cite{herold2002}. Tais medidas permitem caracterizações quantitativas sobre a composição espacial, configurações do \textit{habitat} e dos tipos de cobertura do solo. %A combinação do Sensoriamento Remoto com métricas espaciais podem ser úteis na obtenção de informações consistentes e detalhadas sobre a estrutura urbana, possibilitando assim maior representação e melhor entendimento do processo de crescimento urbano \cite{deng2009}.
+%Como instrumentos de análise sobre a constituição da paisagem, vêm-se adotando as métricas espaciais como mecanismos de compreensão das implicações do crescimento urbano. 
+Por meio destas medidas, é possível identificar estruturas, padrões e conectividade de áreas, e ainda, o número, tamanho, forma e proximidade das manchas de uso e cobertura do solo.
+%, avaliando os impactos de possíveis expansões de cidades \cite{lee2011}.
+%Nesta pesquisa é proposto o uso das métricas espaciais denominadas por porcentagem de cobertura, coeficiente de variação das áreas das manchas, densidade de manchas e densidade de bordas.
+Quatro tipos de métricas espaciais mostram-se úteis na caracterização do espaço, são elas: porcentagem de cobertura, coeficiente de variação das áreas das manchas, densidade de manchas e densidade de bordas.
+
+Inicialmente, para a definição de mancha é observada uma vizinhança espacial, definida por:
+\begin{equation}\label{vizinhos}
+\mathcal{V}_{\rho}\left(s_{i}\right) = \left\{ s_{i} \in \mathcal{S} : d\left( s_{i},t\right) < \rho; t \in \mathcal{S} \right\},
+\end{equation}
+sendo $d(\cdot ,\cdot)$ a distância do máximo, isto é: $d\left( a, b \right) = \max\left\{ \left| a_{1} - b_{1} \right|, \left| a_{2} - b_{2} \right| \right\}$ para $a = \left\{ a_{1}, a_{2} \right\}$ e $b = \left\{ b_{1}, b_{2} \right\}$ elementos de $\mathcal{S}$. Ainda, $\rho$ representa o raio de vizinhança de $s_{i}$.
+
+Uma vez definida a vizinhança de $s_{i}$, são identificadas como manchas cada conjunto de posições que apresentam classe comum e são espacialmente conectadas segundo uma vizinhança de ordem 1 (\textit{i.e.}, vizinhança-4). Formalmente, uma mancha $M^{(y)}_{j}\left( s_{i}, \rho \right)$ é o conjunto representado por:
+
+\begin{equation}\label{manchas}
+M^{(y)}_{j}\left( s_{i}, \rho \right) = \left\{ t \in \mathcal{V}_{\rho}(s_{i}) : C(t) = \omega_{y}, C(t)=C(r), \left\| t-r \right\| \leq 1 \right\}.
+\end{equation}
+
+A porcentagem de cobertura que representa a proporção de cada classe sobre a área total, é expressa por:
+\begin{equation}\label{pctcbrtr}
+P_{y} = \frac{A_{y}}{A},
+\end{equation}
+onde $A_{y} = \#\bigcup\limits^{m_{y}}_{j=1}M^{(y)}_{j}\left( s_{i}, \rho \right)$ representa a área das manchas associadas à classe $\omega_{y}$, dada pelo total de pixels associados a esta classe, e $A = \#\bigcup\limits^{c}_{k=1} \bigcup\limits^{m_{k}}_{j=1}M^{(k)}_{j}\left( s_{i}, \rho \right)$ determina a soma das áreas de todas as manchas. Ainda, $m_{k}$ representa o número de manchas relacionadas a uma dada classe $\omega_{k} \in \Omega$.
+
+O coeficiente de variação das manchas, por ser expresso em porcentagem, permite comparar a variação das áreas das manchas entre diferentes classes. Tal coeficiente é expresso por:
+\begin{equation}\label{coefvar}
+CV_{y} = \frac{\sigma\left( M^{(y)}_{j}\left( s_{i}, \rho \right) \right)}{\mu\left( M^{(y)}_{j}\left( s_{i}, \rho \right) \right)}; \ j=1, \ 2, \ \dots, \ m_{y} \ ,
+\end{equation}
+onde $CV_{y}$, $\sigma\left( M^{(y)}_{j}\left( s_{i}, \rho \right) \right)$ e $\mu\left( M^{(y)}_{j}\left( s_{i}, \rho \right) \right)$ são, respectivamente, o coeficiente de variação, desvio padrão e média das áreas das manchas associadas à classe $\omega_{y}$ referente a vizinhança $\mathcal{V}_{\rho}\left(s_{i}\right)$.
+
+A densidade de manchas quantifica a proporção do número de manchas de determinada classe em relação à área de todas as manchas. Tal métrica é dada por:
+\begin{equation}\label{denman}
+D_{y} = \frac{m_{y}}{A},
+\end{equation}
+
+Por fim, densidade de bordas quantifica a proporção do comprimento das bordas em relação à área de todas as manchas, dado por:
+\begin{equation}\label{denbor}
+B_{y} = \frac{\sum\limits^{m_{y}}_{j=1}b^{(y)}_{j}\left( s_{i}, \rho \right)}{A},
+\end{equation}
+onde $b^{(y)}_{j}$ corresponde ao perímetro de uma mancha $M^{(y)}_{j}\left( s_{i}, \rho \right)$.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Breve discussão sobre Florestas Aleatórias}\label{revRF}
+
+
+Florestas Aleatórias ({\itshape Random Forest} -- RF) \cite{Breiman2001} compreende uma abordagem de classificação que combina um conjunto de árvores de decisão. Dois pontos importantes desta abordagem referem-se ao uso da amostragem {\itshape bootstrap} na determinação de conjuntos de dados de treinamento e da votação por maioria para a tomada de decisão final.
+
+Diante do fato das árvores de decisão serem sensíveis aos dados de treinamento, os modelos obtidos tendem a apresentar certo grau de distinção entre si. Como consequência, durante o processo de classificação uma árvore deverá proteger outra árvore do seu próprio erro, logo, a classificação ocorre de forma errônea somente quando as árvores erram em favor de uma mesma classe.
+
+Outro fator que aumenta ainda mais a distinção entre as árvores é a seleção aleatória de apenas parte dos atributos disponíveis para uso em cada uma das árvore que compõe a combinação. 
+Uma vez que a combinação das decisões é tomada com base na votação por maioria, espera-se que uma grande quantidade de modelos parcialmente distintos deve superar, em opinião, um único modelo constituinte.
+
+%As características mencionadas torna o RF um dos métodos de Aprendizado de Máquina mais robustos dentro desta área de pesquisa.
