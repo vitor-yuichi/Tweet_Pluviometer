@@ -1,0 +1,23 @@
+%\hypertarget{estilo:capitulo}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{MODELAGEM DA SUSCETIBILIDADE À INCÊNDIOS} \label{Proposta}
+
+O diagrama ilustrado na Figura~\ref{framework} contém o racional desta proposta de pesquisa. Seus diferentes constituintes compreendem os conceitos discutidos na Seção~\ref{Rev}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{./figs/FrameworkProjFelipeNascimento.pdf}
+\caption{Racional da proposta de pesquisa.}\label{framework}
+\end{figure}
+
+Partindo de uma série multitemporal de imagens obtidas por sensoriamento remoto, especificamente compreendida pelos anos de 2000, 2005, 2010, 2015 e 2019\footnote{Tais anos estão passíveis de modificação perante situações extremas, por exemplo, a cobertura de nuvem ou ausência de dados.}. Sobre cada uma destas imagens é efetuada a seleção de amostras de uso e cobertura do solo dentre quatro classes possíveis: alta biomassa; média biomassa; baixa biomassa; outros. Ao passo que a classe de baixa bomassa corresponde a áreas de solo exposto ou agropastoril, as classes de alta e média biomasssa correspondem a locais de floresta e regeneração recente. A quarta classe, denominada ``outros'' é destinada a corpos d'água e demais alvos cujo acúmulo de biomassa é improvável.
+
+Posteriormente, cada uma das imagens da série multitemporal, devidamente acompanhada das amostras de uso e cobertura do solo, é então submetida a um processo de classificação com uso do método RF (Seção~\ref{revRF}). A parametrização e avaliação dos resultados de classificação é guiado por procedimento {\itshape grid-search} e avaliações via coeficiente kappa \cite{CongaltonGreen2009}.
+
+Em posse dos resultados de classificação, serão aplicadas métricas espaciais para extração e caracterização das dinâmicas locais em um espaço de atributos de dimensão elevada. Ao admitir as quatro métricas\footnote{Supondo um valor fixo para o raio de vizinhança ($\rho$)} discutidas na Seção~\ref{revMetricas} (Equações~\ref{pctcbrtr} a \ref{denbor}) e que a série multitemporal possui quatro instantes (i.e., 2000, 2005, 2010, 2015 e 2019), é proporcionado ao fim uma imagem cujos pixels estão associados a um vetor de dimensão 20.
+
+Por sua vez, com referencia em uma imagem recente da área de estudo, é efetuada a coleta de amostras sobre regiões afetadas, ou não, por incêndios. Este processo leva a composição de um conjunto rotulado das dinâmicas locais. Com uso deste conjunto é viabilizada a determinação de um modelo de regressão logística, que por sua vez pode ser empregado na extrapolação do comportamento ``afetadas'' e ``não afetadas'' como função das dinâmicas locais.
+
+O modelo de regressão obtido, quando aplicado sobre áreas não rotuladas, ou mesmo sobre regiões vizinhas da área de estudo que tenham sido submetidas ao mesmo processo de classificação e extração de métricas espaciais, deve proporcionar uma inferência a respeito da suscetibilidade a incêndios. A avaliação deste processo pode ser feito mediante a comparação entre a estimação gerada pelo modelo obtido em locais onde é conhecida a ocorrência, ou não, de incêndios. Mais uma vez, o coeficiente kappa deve ser empregado neste propósito de avaliação.
+

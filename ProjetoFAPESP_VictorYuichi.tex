@@ -1,0 +1,93 @@
+\documentclass[PublicacaoArtigoOuRelatorio,english,portuguese,LogoINPE]{tdiinpe}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Pacotes já previamente carregados:      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ifthen,calc,graphicx,color,inputenc,babel,hyphenat,array,setspace, %
+%%% bigdelim,multirow,supertabular,tabularx,longtable,lastpage,lscape, %
+%%% rotate,caption2,amsmath,amssymb,amsthm,subfigure,tocloft,makeidx,  %
+%%% eso-pic,calligra,hyperref,ae,fontenc                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{dsfont}
+\usepackage{comment}
+
+%ADICOINAIS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{rotating}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{mathrsfs}
+\usepackage{enumerate}
+\usepackage[section]{placeins}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\maxi}{max}
+\DeclareMathOperator*{\mini}{min}
+\DeclareMathOperator*{\sgn}{sgn}
+
+%\usepackage{natbib}
+
+\usepackage{pdfpages}
+
+%\renewcommand{\labelenumi}{\arabic{enumi}.}
+\renewcommand{\thefootnote}{(\arabic{footnote})}
+
+%\makeatletter
+%\newcommand{\thickhline}{\noalign {\ifnum 0=`}\fi \hrule height 1pt \futurelet \reserved@a \@xhline}
+%\newcolumntype{"}{@{\hskip\tabcolsep\vrule width 1pt\hskip\tabcolsep}}
+%\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\input{./configuracao}
+
+\makeindex
+
+\begin{document}
+
+\maketitle
+
+%\include{./docs/resumo}
+
+\includeSumario
+\inicioIntroducao
+
+\doublespacing
+
+\include{./text/introducao}
+\include{./text/objetivo}
+\include{./text/justificativa}
+\include{./text/fundamentos}
+\include{./text/metodologia}
+\include{./text/planoCrono}
+
+
+\bibliography{./bib/bibliography}
+
+
+%\include{./docs/intro}
+%
+%\include{./docs/objetivos}    %ok!
+%
+%\include{./docs/justificativa} %ok!
+%
+%\include{./docs/fundamentacao}
+%
+%\include{./docs/proposta}     %fazer
+%
+%\include{./docs/matmet}      %fazer
+%
+%\include{./docs/cronograma}  %quase...
+%
+%%\newpage
+%
+%\bibliography{./bib/bibNascimento__}
+
+
+\inicioIndice
+\end{document}

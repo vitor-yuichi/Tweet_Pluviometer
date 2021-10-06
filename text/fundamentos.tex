@@ -1,0 +1,77 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Fundamentação Teórica}
+
+%%%%%%%%%%%%%%%%%%
+\section{Alagamentos}
+Os alagamentos são fenômenos associados ao acúmulo de água em determinado local, favorecidos pela microdrenagem e macrodrenagem insuficientes. A ausência de planejamento urbano e a rápida modificação do espaço culmina na impermeabilização do solo, contribuindo para diminuição do tempo concentração e o aumento do volume de escoamento superficial, amplificando-se assim, o pico da vazão e consequentemente saturando a drenagem pluvial do local \cite{hansmann2013descriccao}. 
+
+A topografia e a elevação do local também são fatores preponderantes para a ocorrência de alagamentos, ou seja, verifica-se que os lugares com maior frequência de alagamentos tem características morfométricas planas, depressões ou fundos de vales, dificultanto o processo de escoamento superficial do local \cite{braga2016alagamentos}.
+
+Fatores como o descarte inadequado de resíduos sólidos, podem causar obstrução dos sistema de drenagem do local, isto ocorre em decorrência da ausência de educação ambiental da população. 
+
+Os alagamentos são fenômenos complexos, uma vez que a sua causa está  interrelacionada a uma gama parâmetros como o clima que incluem precipitação forte ou persistente, falhas estruturais urbanas, sistemas de drenagem inadequados, bacias hidrográficas, proximidades de corpos aquáticos, uso e ocupação inapropriado do solo e entre outros \cite{doocy2013human}. 
+
+
+%%%%%%%%%%%%%%%%%%
+\section{A utilização de redes sociais para o monitoramento de eventos}
+O desenvolvimento da sociedade na esfera tecnológica permitiu a ascensão meteórica das redes sociais e suas funcionalidades. A quantidade massiva de dados gerados das redes sociais consolidam a interação do universo virtual com o mundo concreto, onde usuários expressam suas percepções e emoções acerca dos eventos circundantes \cite{naaman2011geographic}. A atividade das redes sociais e sua heterogeneidade espacial demonstra a potencialidade para o monitoramento de eventos metereológicos como a precipitação \cite{de2021effect}. 
+
+Através das plataformas de mídia social, uma única postagem pode ser vista por milhares de usuários simultaneamente, além disso algumas plataformas utilizam-se de georreferenciamento que permite a visualização não só da postagem como também a localização do usuário com seu dispositivo móvel. Redes sociais (Twitter) ou aplicativos como Open Street Map que permitem a tecnologia de georreferenciamento são denominadas informações geográficas voluntárias, o trabalho de \cite{horita2015development}, integra estas plataformas para o gerenciamento de risco dos alagamentos. 
+
+A utilização das redes sociais apresentam uma crescente tendência na sua incorporação em pesquisas para o monitoramento e análise de uma infinidade de eventos. Segundo \cite{de2015geographic}, a utilização de informações geográficas voluntárias, principalmente a rede a social Twitter, são componentes fundamentais para a maior consciência dos eventos ocorrentes ou seja, consolida-se a percepção dos elementos no ambiente e possibilita maior compreensão das possíveis consequências. 
+ 
+ 
+%%%%%%%%%%%%%%%%%%
+\section{Classificação}
+O Aprendizado de Máquina é cada vez mais empregado pelos pesquisadores na área de desastres de naturais, alguns autores utilizam esta ferramenta para analisar a semântica atrelada das postagens de rede social, e assim, aprimorar os resultados da classificação de determinada ocorrência \cite{de2015geographic, deparday2019machine}. 
+
+Esta tecnologia pode ser definida como um conjunto métodos computacionais para aprimorar performance ou realizar predições acuradas. A classificação é um dos métodos computacionais amplamente utilizados para categorização de cada item em uma série de dados. Matematicamente, a classificação é descrita por uma função \(F: \mathcal{X}\longrightarrow \mathcal{Y}\) que associa elementos no conjunto de atributos \(\mathcal{X}\) a uma classe de \(\Omega=\{\omega_1, \omega_2,...,\omega_n\}\), com \(n \in \mathbb{N}^*\), e partindo-se de um indicador de classe \(\mathcal{Y}=\{1,2,...,n\}\), portanto, quando \(x \in \mathcal{X}\) e \(y \in \mathcal{Y}\), a função \(y=F(x)\) indica que x pertence à \(\Omega_y\).
+
+Os modelos de aprendizagem supervisionada, a função \(F\) utiliza-se das informações do conjunto de treinamento representado pela equação \(\mathcal{D}=\{(x_j,\omega_j \in \times \Omega : i=1,...m; \ j=1,...,c \}\), no qual \(m \) é a quantidade de dados no treinamento.
+
+
+Atualmente os principais algoritmos empregados para classificação são o \textit{Suport Vector Machine} (SVMs) e \textit{Random Forest} \cite{mohri2018foundations}.
+
+%-----------------
+\subsection{Suport Vector Machines (SVMs)}
+O método SVM realiza a distinção entre amostras de treinamento partindo-se de um hiperplano que possui maior abrangência de separação, mapeando o padrão de vetores para um espaço de alta dimensão, determinando-se o hiperplano mais adequado para separação de dados. Este algoritmo é utilizado por diversos autores devido à alta acurácia para problemas de classificação binária \cite{lian2006multi} . 
+
+O hiperplano corresponde ao lugar geométrico nos quais a função \(f(x)=\langle w,x \rangle+b\) é nula. A variável \(w\) é o vetor ortogonal ao hiperplano e \(b\) a distância entre a função e a origem do espaço de atributos. 
+
+Para se encontrar o hiperplano mais adequado para separação entre as classes, é necessário a resolução do problema de otimização \cite{theodoridis2010introduction} representado por:
+\(
+    max_\gamma (\sum^m_{i=1} \gamma_i-\frac{1}{2}\sum^m_{i=1}\sum^m_{j=1}\gamma_i \gamma_j y_i y_j \langle x_i,x_j \rangle), \ 
+    \begin{cases}
+0 \leq \gamma_i \leq \mathcal{C}, i=1,...,m \\
+    \sum^m_{i=1} \gamma_i y_i=0
+\end{cases}
+\), 
+a variável \(\mathcal{C}\) é o parâmetro utilizado para regularização para ajustar o hiperplano e \(\gamma_i\) são os multiplicadores de Lagrange. 
+
+
+A definição dos parâmetros \(w\) e \(b\) que compõem o hiperplano são dadas por: 
+\(
+    w=\sum_{\forall x_i \in SV}y_i \gamma_i x_i, \  
+    b=\frac{1}{\#SV}(\sum_{x_i \in SV} y_i+ \sum_{x_i \in SV} \cdot \sum_{x_j \in SV} \gamma_i \gamma_j y_i y_j \langle x_i,x_j \rangle) 
+\), \(SV\) é um subconjunto das amostrar de treinamento \(\mathcal{D}\), nos quais os elementos são os vetores suporte. Por fim indicação da classe pertencente do vetor analisado é dado pelo sinal da função discriminante \(f(x)\) \cite{maselli2019integraccao}.
+
+
+%-----------------
+\subsection{Floresta Aleatória (\textit{Random Forest})}
+A classificação através do algoritmo Floresta Aleatória vem sendo amplamente utilizada literatura para avaliação e mapeamento dos padrões de eventos hidrológicos. Pesquisa como de \cite{zhu2021flood} e \cite{liu2020random} demonstram a potencialidade do algoritmo para avaliar a resiliência e os padrões espaciais dos alagamentos. 
+
+
+Este modelo é um algoritmo de classificação que representa um conjunto de árvores de decisão, que combina a saída destas diversas árvores atribuindo-se uma classe ao conjunto de dados. Segundo \cite{breiman2001random}, a Floresta Aleatória consiste em uma coleção de classificadores em forma de árvore descritos por \(\{h(x,\theta_k), k=1,..\}\) onde \(\theta_k\) são independentes e em cada árvore é lançado um voto unitário para a classe mais popular para o input \(x\). 
+
+
+%-----------------
+\subsection{Redes Neurais}
+Este algoritmo vem sendo empregado para emissão de alertas hidrológicos e mapeamentos de suscetibilidade em alguns autores como \cite{da2016utilizaccao} e \cite{pacheco2020mapeamento}, demonstrando efetividade e acurácia elevada para os modelo de previssão associados aos fenômenos hidrológicos. 
+
+
+A técnica \textit{Multilayer Perceptron} demonstra resultados relevantes as mais diversas áreas da ciência \cite{gardner1998artificial}. Este algoritmo consiste em um sistema interconectado de neurônios, estes nós são conectados entre si por um peso. Matematicamente as camadas de neurônios de entrada e saída são vetores definidos como $i$ e $O$ respectivamente, e os pesos como uma matriz $W$. Portanto a saída da rede é dada por $O=f(IW_{io})$, ao final do processo uma função determina se aquele nó será ativado na condição $f(x)\begin{cases} 
+1 \ \ x>0 \\
+0 \ \ otherwise
+\end{cases}$. Assumindo que $T$ é o parâmetro de saída para o vetor de treinamento, o algoritmo o calcula o erro associado através de $E(O)=T-O=T-f(IW_{io})$. Algumas técnicas visam a redução do erro através da atualização dos pesos no processo representado matematicamente por $W_{io}(t+1)=W_{io}(t)+\alpha E_n$.
+
+

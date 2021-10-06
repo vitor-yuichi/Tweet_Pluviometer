@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%CAPA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\serieinpe{INPE-NNNNN-TDI/NNNN} %% não mais usado
+
+\titulo{TESTES DE HIPÓTESES COMO FERRAMENTA NA DETECÇÃO DE MUDANÇAS NO USO E COBERTURA DO SOLO EM IMAGENS DE SENSORIAMENTO REMOTO}
+\title{}
+\author{Aluno: Gabriela Ribeiro Sapucci \\ Orientador: Prof. Dr. Rogério Galante Negri}
+\descriccao{Projeto de Bolsa de Iniciação Científica apresentado à FAPESP -- Fundação de Amparo à Pesquisa do Estado de São Paulo.}
+\repositorio{}
+\tipoDaPublicacao{}
+\IBI{}
+
+\date{Fevereiro de 2018}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%VERSO DA CAPA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\tituloverso{\vspace{-0.9cm}\textbf{\PublicadoPor:}}
+%\descriccaoverso{%Instituto Nacional de Pesquisas Espaciais - INPE\\
+%%Gabinete do Diretor (GB)\\
+%%Serviço de Informação e Documentação (SID)\\
+%%Caixa Postal 515 - CEP 12.245-970\\
+%%São José dos Campos - SP - Brasil\\
+%%Tel.:(012) 3945-6923/6921\\
+%%Fax: (012) 3945-6919\\
+%%E-mail: {\url{pubtc@sid.inpe.br}}
+%}
+%
+%% CEPPII de 09/12/2011 a 08/12/2013:
+%\descriccaoversoA{\textbf{\ConselhoDeEditoracao:}\\
+%\textbf{\Presidente:}\\
+%Marciana Leite Ribeiro - Serviço de Informação e Documentação (SID)\\
+%\textbf{\Membros:}\\
+%Dr. Antonio Fernando Bertachini de Almeida Prado - Coordenação Engenharia e Tecnologia Espacial (ETE)\\
+%Drª Inez Staciarini Batista - Coordenação Ciências Espaciais e Atmosféricas (CEA)\\
+%Dr. Gerald Jean Francis Banon - Coordenação Observação da Terra (OBT)\\
+%Dr. Germano de Souza Kienbaum - Centro de Tecnologias Especiais (CTE)\\
+%Dr. Manoel Alonso Gan - Centro de Previsão de Tempo e Estudos Climáticos (CPT)\\
+%Drª Maria do Carmo de Andrade Nono - Conselho de Pós-Graduação\\
+%Dr. Plínio Carlos Alvalá - Centro de Ciência do Sistema Terrestre (CST)\\
+%\textbf{\BibliotecaDigital:}\\
+%Dr. Gerald Jean Francis Banon - Coordenação de Observação da Terra (OBT)\\
+%%Jefferson Andrade Ancelmo - Serviço de Informação e Documentação (SID)\\
+%%Simone A. Del-Ducca Barbedo - Serviço de Informação e Documentação (SID)\\
+%%Deicy Farabello - Centro de Previsão de Tempo  e Estudos Climáticos (CPT)\\
+%\textbf{\RevisaoNormalizacaoDocumentaria:}\\
+%Marciana Leite Ribeiro - Serviço de Informação e Documentação (SID) \\
+%%Marilúcia Santos Melo Cid - Serviço de Informação e Documentação (SID)\\
+%Yolanda Ribeiro da Silva Souza - Serviço de Informação e Documentação (SID)\\
+%\textbf{\EditoracaoEletronica:}\\
+%Marcelo de Castro Pazos - Serviço de Informação e Documentação (SID)\\
+%}
+
+%%%%%%%%%%%%%%%%%%%FOLHA DE ROSTO
+
+%%%%%%%%%%%%%%%%FICHA CATALOGRÁFICA
+%%% NÃO PREENCHER - SERÁ PREENCHIDO PELO SID
+%
+%\cutterFICHAC{Cutter}
+%\autorUltimoNomeFICHAC{Negri, Rogério Galante}
+%\autorAbreviadoFICHAC {RGN}
+%\tituloFICHAC{INVESTIGAÇÃO E DESENVOLVIMENTO DE ALGORITMOS PARA DETECÇÃO DE MUDANÇA EM IMAGENS DE SENSORIAMENTO REMOTO}
+%\instituicaosigla{}
+%\instituicaocidade{São José dos Campos}
+%\paginasFICHAC{\pageref{} + \pageref{}}
+%\palavraschaveFICHAC{1.~Palavra chave. 2.~Palavra chave 3.~Palavra chave. 4.~Palavra chave. 5.~Palavra chave  I.~\mbox{Título}.}
+%\numeroCDUFICHAC{000.000} %% número do CDU 
+%
+%% Nota da ficha (para TD)
+%\tipoTD{Projeto de Pesquisa}
+%\cursoFA{}
+%\instituicaoDefesa{}
+%\anoDefesa{2013}
+%\nomeAtributoOrientadorFICHAC{}
+%\valorAtributoOrientadorFICHAC{}
+%
+%%%%%%%%%%%%%%%%FOLHA DE APROVAÇAO PELA BANCA EXAMINADORA
+%\tituloFA{\textbf{ATENÇÃO! A FOLHA DE APROVAÇÃO SERÁ INCLUIDA POSTERIORMENTE.}}
+%%\cursoFA{\textbf{}}
+%\candidatoOUcandidataFA{}
+%\dataAprovacaoFA{}
+%\membroA{}{}{}
+%\membroB{}{}{}
+%\membroC{}{}{}
+%\membroD{}{}{}
+%\membroE{}{}{}
+%\membroF{}{}{}
+%\membroG{}{}{}
+%\ifpdf
+
+%%%%%%%%%%%%%%%NÍVEL DE COMPRESSÃO {0 -- 9}
+%\pdfcompresslevel 9
+%\fi
+%%%% define em 80% a largura das figuras %%%
+%\newlength{\mylenfig} 
+%\setlength{\mylenfig}{0.8\textwidth}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%%%%%%%%%%%%%COMANDOS PESSOAIS
+%\newcommand{\vetor}[1]{\mathit{\mathbf{#1}}}
