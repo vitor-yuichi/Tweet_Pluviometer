@@ -1,26 +1,49 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Plano de Atividades e Cronograma}
+\chapter{Plano de Atividades e Cronograma}\label{secPlanoCrono}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Plano de atividades}
 
-%\section{Cronograma}
+%RGN: Creio que esta se?ão seja necessária. Tente seguir/adaptar este exemplo do Felipe.
+{\color{magenta}
+Em um primeiro momento, o projeto iniciará com uma revisão bibliográfica sobre classificação e regressão de dados, em especial, envolvendo aplicações direcionadas ao sensoriamento remoto.
+Concomitantemente à revisão bibliográfica citada, será realizado o estudo da linguagem Python e do software ENVI, necessários para o cumprimento das etapas seguintes.
 
-A pesquisa será realizada em 12 meses e será executada nos passos listado abaixo (Tabela 1).
-\begin{itemize}
-\item A - Revisão sistemática em desastres associados à alagamentos e modelos de classificação; 
-\item B - Estudo dos modelos de aprendizado de máquina e aplicação em Python; 
-\item C - Processamento dos bancos de dados; 
-\item D - Análise exploratória dos dados processados; 
-\item E - Submissão dos dados processados para treinamento nos modelos propostos; 
-\item F - Classificação; 
-\item G - Cálculos estatísticos e inferências;
-\item H - Alterações, ajustes e otimizações no modelo de melhor desempenho; 
-\item I - Análise e conclusão dos resultados; 
-\item J - Relatório final 
-\end{itemize}
+Ainda na etapa inicial, serão feitas aquisições de imagens obtidas por satélites da série Landsat nos anos de 2000, 2005, 2010, 2015, 2019 e 2020 com finalidade de construir uma base de dados temporal. A seleção dos instantes em cada data está condicionada a ausência de cobertura de nuvem sobre a área de estudo.
+
+Posteriormente, sobre cada um dos instantes da série multitemporal, serão coletadas amostras de uso e cobertura do solo referentes as classes estabelecidas no escopo da proposta (Seção~\ref{Proposta} -- i.e.; alta, média e baixa biomassa, e outros). Em seguida, com uso do método RF, são obtidas as respectivas classificações dos instantes da série em questão, que posteriormente são usadas no cálculo de métricas espaciais para expressão das dinâmicas locais. O processo de classificação e cálculo das métricas espaciais será conduzido por funções implementadas em linguagem Python e com uso das bibliotecas Numpy e Scikit-Learn.
+
+Em consonância com o proposta delineada na Seção~\ref{Proposta}, serão coletadas amostras sobre áreas afetadas, ou não, por incêndios a fim de construir um conjunto de dados rotulados, e que por sua vez empregado na construção de um modelo de regressão logística. A modelagem em questão será alcançada com uso das mesmas ferramentas computacionais citadas anteriormente.
+
+Em posse do modelo de regressão, serão feitas extrapolações para todas as localidades (i.e., pixels) inseridas na área de estudo, proporcionando assim um mapa de suscetibilidade de ocorrência de incêndios. A avaliação deste modelo é efetuada através da observação/comparação com regiões onde é confirmada a ocorrência, ou não, de incêndio.
+
+Por fim, a partir dos resultados, análises e conclusões obtidas, serão redigidos o relatório de atividades e trabalhos para divulgação em evento ou, se possível, periódico científico.
+}
+
+
+\section{Cronograma}
+
+\begin{singlespace}
+A pesquisa será realizada em 12 meses e será executada nos passos listado abaixo. A Tabela~\ref{tabCorno} exibe o respectivo cronograma de execução.
+
+\begin{enumerate}[A -]
+\item Revisão sistemática em desastres associados à alagamentos e modelos de classificação; 
+\item Estudo dos modelos de aprendizado de máquina e aplicação em Python; 
+\item Processamento dos bancos de dados; 
+\item Análise exploratória dos dados processados; 
+\item Submissão dos dados processados para treinamento nos modelos propostos; 
+\item Classificação; 
+\item Cálculos estatísticos e inferências;
+\item Alterações, ajustes e otimizações no modelo de melhor desempenho; 
+\item Análise e conclusão dos resultados; 
+\item Relatório final 
+\end{enumerate}
+\end{singlespace}
 
 \begin{table}[H]
     \centering
+    \caption{Cronograma}\label{tabCorno}
     \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
 \hline
 Mês &  & 1º & 2º & 3º & 4º & 5º & 6º & 7º & 8º & 9º & 10º & 11º & 12º \\ \hline
@@ -35,6 +58,5 @@ Mês &  & 1º & 2º & 3º & 4º & 5º & 6º & 7º & 8º & 9º & 10º & 11º & 12º \\ \hline
  & I &  &  &  &  &  &  &  &  &  & $\bullet$ & $\bullet$ &  \\ \cline{2-14} 
  & J &  &  &  &  &  &  &  &  &  &  & $\bullet$ & $\bullet$ \\ \hline
 \end{tabular}
-    \caption{Cronograma}
-    \label{tab:my_label}
+    
 \end{table}

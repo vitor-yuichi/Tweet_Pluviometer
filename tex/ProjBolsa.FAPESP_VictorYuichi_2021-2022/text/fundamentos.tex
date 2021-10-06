@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Fundamentação Teórica}
+\chapter{Fundamentação Teórica}\label{secFundamentos}
 
 %%%%%%%%%%%%%%%%%%
 \section{Alagamentos}
@@ -25,15 +25,17 @@ A utilização das redes sociais apresentam uma crescente tendência na sua incorpo
 \section{Classificação}
 O Aprendizado de Máquina é cada vez mais empregado pelos pesquisadores na área de desastres de naturais, alguns autores utilizam esta ferramenta para analisar a semântica atrelada das postagens de rede social, e assim, aprimorar os resultados da classificação de determinada ocorrência \cite{de2015geographic, deparday2019machine}. 
 
-Esta tecnologia pode ser definida como um conjunto métodos computacionais para aprimorar performance ou realizar predições acuradas. A classificação é um dos métodos computacionais amplamente utilizados para categorização de cada item em uma série de dados. Matematicamente, a classificação é descrita por uma função \(F: \mathcal{X}\longrightarrow \mathcal{Y}\) que associa elementos no conjunto de atributos \(\mathcal{X}\) a uma classe de \(\Omega=\{\omega_1, \omega_2,...,\omega_n\}\), com \(n \in \mathbb{N}^*\), e partindo-se de um indicador de classe \(\mathcal{Y}=\{1,2,...,n\}\), portanto, quando \(x \in \mathcal{X}\) e \(y \in \mathcal{Y}\), a função \(y=F(x)\) indica que x pertence à \(\Omega_y\).
+Esta tecnologia pode ser definida como um conjunto métodos computacionais para aprimorar performance ou realizar predições acuradas. A classificação é um dos métodos computacionais amplamente utilizados para categorização de cada item em uma série de dados. Matematicamente, a classificação é descrita por uma função \(F: \mathcal{X} \rightarrow \mathcal{Y}\) que associa elementos no conjunto de atributos \(\mathcal{X}\) a uma classe de \(\Omega=\{\omega_1, \omega_2,...,\omega_n\}\), com \(n \in \mathbb{N}^*\), e partindo-se de um indicador de classe \(\mathcal{Y}=\{1,2,...,n\}\), portanto, quando \(x \in \mathcal{X}\) e \(y \in \mathcal{Y}\), a função \(y=F(x)\) indica que x pertence à \(\Omega_y\).
 
 Os modelos de aprendizagem supervisionada, a função \(F\) utiliza-se das informações do conjunto de treinamento representado pela equação \(\mathcal{D}=\{(x_j,\omega_j \in \times \Omega : i=1,...m; \ j=1,...,c \}\), no qual \(m \) é a quantidade de dados no treinamento.
 
 
-Atualmente os principais algoritmos empregados para classificação são o \textit{Suport Vector Machine} (SVMs) e \textit{Random Forest} \cite{mohri2018foundations}.
+Atualmente os principais algoritmos empregados para classificação são o \textit{Suport Vector Machine} (SVMs) e \textit{Random Forest} (RF) \cite{mohri2018foundations}. \textcolor{red}{e as redes neurais? (MLP?)}
+
+
 
 %-----------------
-\subsection{Suport Vector Machines (SVMs)}
+\subsection{SVM}
 O método SVM realiza a distinção entre amostras de treinamento partindo-se de um hiperplano que possui maior abrangência de separação, mapeando o padrão de vetores para um espaço de alta dimensão, determinando-se o hiperplano mais adequado para separação de dados. Este algoritmo é utilizado por diversos autores devido à alta acurácia para problemas de classificação binária \cite{lian2006multi} . 
 
 O hiperplano corresponde ao lugar geométrico nos quais a função \(f(x)=\langle w,x \rangle+b\) é nula. A variável \(w\) é o vetor ortogonal ao hiperplano e \(b\) a distância entre a função e a origem do espaço de atributos. 
@@ -57,7 +59,7 @@ A definição dos parâmetros \(w\) e \(b\) que compõem o hiperplano são dadas por:
 
 
 %-----------------
-\subsection{Floresta Aleatória (\textit{Random Forest})}
+\subsection{RF}
 A classificação através do algoritmo Floresta Aleatória vem sendo amplamente utilizada literatura para avaliação e mapeamento dos padrões de eventos hidrológicos. Pesquisa como de \cite{zhu2021flood} e \cite{liu2020random} demonstram a potencialidade do algoritmo para avaliar a resiliência e os padrões espaciais dos alagamentos. 
 
 
