@@ -1,18 +1,18 @@
-\babel@toc {portuguese}{}
+\babel@toc {portuguese}{}\relax 
 \contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Objetivos}{2}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Objetivos}{3}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Justificativa e Relev\^ancia}{3}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Fundamenta\c c\~ao Te\'orica}{3}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Alagamentos}{3}{section.4.1}%
-\contentsline {section}{\numberline {4.2}A utiliza\c c\~ao de redes sociais para o monitoramento de eventos}{4}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Classifica\c c\~ao}{5}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Suport Vector Machines (SVMs)}{6}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Floresta Aleat\'oria (\textit {Random Forest})}{6}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Redes Neurais}{7}{subsection.4.3.3}%
-\contentsline {chapter}{\numberline {5}Materiais e M\'etodos}{7}{chapter.5}%
-\contentsline {section}{\numberline {5.1}\'Area de estudo e dados dispon\IeC {\'\i }veis}{8}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Ferramentas Computacionais}{9}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Proposta de algoritmo para defini\c c\~ao do modelo}{9}{section.5.3}%
+\contentsline {chapter}{\numberline {4}Fundamenta\c c\~ao Te\'orica}{4}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Alagamentos}{4}{section.4.1}%
+\contentsline {section}{\numberline {4.2}A utiliza\c c\~ao de redes sociais para o monitoramento de eventos}{5}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Classifica\c c\~ao}{6}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Suport Vector Machines (SVMs)}{7}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Floresta Aleat\'oria (\textit {Random Forest})}{7}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Redes Neurais}{8}{subsection.4.3.3}%
+\contentsline {chapter}{\numberline {5}Materiais e M\'etodos}{8}{chapter.5}%
+\contentsline {section}{\numberline {5.1}\'Area de estudo e dados dispon\IeC {\'\i }veis}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Ferramentas Computacionais}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Proposta de algoritmo para defini\c c\~ao do modelo}{10}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Plano de Atividades e Cronograma}{11}{chapter.6}%
-\contentsline {chapter}{REFER\^ENCIAS BIBLIOGR\'AFICAS}{11}{chapter.7}%
+\contentsline {chapter}{REFER\^ENCIAS BIBLIOGR\'AFICAS}{13}{chapter.7}%
 \contentsfinish 

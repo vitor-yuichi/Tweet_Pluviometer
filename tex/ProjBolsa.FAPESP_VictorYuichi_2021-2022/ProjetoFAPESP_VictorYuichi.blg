@@ -1,26 +1,29 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: ProjetoFAPESP_VictorYuichi.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: abnt-alf.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: abnt-options.bib
 Database file #2: ./bib/bibliography.bib
 Repeated entry---line 38 of file ./bib/bibliography.bib
  :   @article{hirata2013mapeamento
  :                                ,
 I'm skipping whatever remains of this entry
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=200001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Warning--opção abnt-show-options passou para warn
 Warning--opção abnt-verbatim-entry passou para no
 Warning--opção abnt-url-package passou para url
@@ -29,45 +32,45 @@ Warning--opção abnt-url-package passou para url
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 30 entries,
+You've used 32 entries,
             6478 wiz_defined-function locations,
-            1294 strings with 14393 characters,
-and the built_in function-call counts, 22475 in all, are:
-= -- 1633
-> -- 871
-< -- 47
-+ -- 399
-- -- 253
-* -- 1668
-:= -- 2935
-add.period$ -- 69
-call.type$ -- 31
-change.case$ -- 311
-chr.to.int$ -- 71
-cite$ -- 22
-duplicate$ -- 1128
-empty$ -- 1631
-format.name$ -- 1310
-if$ -- 5349
+            1306 strings with 14878 characters,
+and the built_in function-call counts, 24204 in all, are:
+= -- 1742
+> -- 956
+< -- 51
++ -- 431
+- -- 277
+* -- 1807
+:= -- 3166
+add.period$ -- 75
+call.type$ -- 33
+change.case$ -- 339
+chr.to.int$ -- 76
+cite$ -- 24
+duplicate$ -- 1225
+empty$ -- 1734
+format.name$ -- 1432
+if$ -- 5752
 int.to.chr$ -- 7
 int.to.str$ -- 3
-missing$ -- 509
-newline$ -- 137
-num.names$ -- 110
-pop$ -- 591
+missing$ -- 546
+newline$ -- 149
+num.names$ -- 120
+pop$ -- 642
 preamble$ -- 1
-purify$ -- 118
+purify$ -- 128
 quote$ -- 0
-skip$ -- 1374
+skip$ -- 1456
 stack$ -- 1
-substring$ -- 815
-swap$ -- 513
-text.length$ -- 32
+substring$ -- 858
+swap$ -- 556
+text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 2
 warning$ -- 3
-while$ -- 171
+while$ -- 184
 width$ -- 0
-write$ -- 360
+write$ -- 393
 (There was 1 error message)
