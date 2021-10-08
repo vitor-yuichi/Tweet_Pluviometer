@@ -32,45 +32,45 @@ Warning--opção abnt-url-package passou para url
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 32 entries,
+You've used 37 entries,
             6478 wiz_defined-function locations,
-            1306 strings with 14878 characters,
-and the built_in function-call counts, 24204 in all, are:
-= -- 1742
-> -- 956
-< -- 51
-+ -- 431
-- -- 277
-* -- 1807
-:= -- 3166
-add.period$ -- 75
-call.type$ -- 33
-change.case$ -- 339
-chr.to.int$ -- 76
-cite$ -- 24
-duplicate$ -- 1225
-empty$ -- 1734
-format.name$ -- 1432
-if$ -- 5752
+            1334 strings with 15994 characters,
+and the built_in function-call counts, 29343 in all, are:
+= -- 2081
+> -- 1192
+< -- 61
++ -- 530
+- -- 343
+* -- 2219
+:= -- 3819
+add.period$ -- 90
+call.type$ -- 38
+change.case$ -- 413
+chr.to.int$ -- 90
+cite$ -- 29
+duplicate$ -- 1509
+empty$ -- 2062
+format.name$ -- 1801
+if$ -- 6949
 int.to.chr$ -- 7
 int.to.str$ -- 3
-missing$ -- 546
-newline$ -- 149
-num.names$ -- 120
-pop$ -- 642
+missing$ -- 658
+newline$ -- 177
+num.names$ -- 145
+pop$ -- 775
 preamble$ -- 1
-purify$ -- 128
+purify$ -- 149
 quote$ -- 0
-skip$ -- 1456
+skip$ -- 1711
 stack$ -- 1
-substring$ -- 858
-swap$ -- 556
-text.length$ -- 35
+substring$ -- 1043
+swap$ -- 704
+text.length$ -- 42
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 2
 warning$ -- 3
-while$ -- 184
+while$ -- 223
 width$ -- 0
-write$ -- 393
+write$ -- 473
 (There was 1 error message)

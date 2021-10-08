@@ -120,6 +120,12 @@ World Bank, 2019.}
 \textbf{Revista Brasileira de Cartografia}, v.~71, n.~1, p. 149--175, 2019.}
 
 
+\bibitem[McKinney 2012]{mckinney2012python}
+\abntrefinfo{McKinney}{MCKINNEY}{2012}
+{MCKINNEY, W. \textbf{Python for data analysis: Data wrangling with Pandas,
+  NumPy, and IPython}. [S.l.]: " O'Reilly Media, Inc.", 2012.}
+
+
 \bibitem[Mohri et al. 2018]{mohri2018foundations}
 \abntrefinfo{Mohri et al.}{MOHRI et al.}{2018}
 {MOHRI, M.; ROSTAMIZADEH, A.; TALWALKAR, A. \textbf{Foundations of machine
@@ -141,11 +147,28 @@ World Bank, 2019.}
   2011.}
 
 
+\bibitem[Pedregosa et al. 2011]{pedregosa2011scikit}
+\abntrefinfo{Pedregosa et al.}{PEDREGOSA et al.}{2011}
+{PEDREGOSA, F.; VAROQUAUX, G.; GRAMFORT, A.; MICHEL, V.; THIRION, B.; GRISEL,
+  O.; BLONDEL, M.; PRETTENHOFER, P.; WEISS, R.; DUBOURG, V. et al.
+  Scikit-learn: Machine learning in python.
+\textbf{the Journal of machine Learning research}, JMLR. org, v.~12, p.
+  2825--2830, 2011.}
+
+
 \bibitem[Quevedo et al. 2020]{pacheco2020mapeamento}
 \abntrefinfo{Quevedo et al.}{QUEVEDO et al.}{2020}
 {QUEVEDO, R. P.; OLIVEIRA, G. Garcia~de; GUASSELLI, L. A. Mapeamento de
   suscetibilidade a movimentos de massa a partir de redes neurais artificiais.
 \textbf{Anuario do Instituto de Geociencias}, v.~43, n.~2, 2020.}
+
+
+\bibitem[Samela et al. 2018]{samela2018gis}
+\abntrefinfo{Samela et al.}{SAMELA et al.}{2018}
+{SAMELA, C.; ALBANO, R.; SOLE, A.; MANFREDA, S. A gis tool for cost-effective
+  delineation of flood-prone areas.
+\textbf{Computers, Environment and Urban Systems}, Elsevier, v.~70, p. 43--52,
+  2018.}
 
 
 \bibitem[Santos 2013]{santos2013impactos}
@@ -179,6 +202,21 @@ Tese (Doutorado) --- Universidade de S{\~a}o Paulo, 2013.}
 {THEODORIDIS, S.; PIKRAKIS, A.; KOUTROUMBAS, K.; CAVOURAS, D.
   \textbf{Introduction to pattern recognition: a matlab approach}. [S.l.]:
   Academic Press, 2010.}
+
+
+\bibitem[VanderPlas 2016]{vanderplas2016python}
+\abntrefinfo{VanderPlas}{VANDERPLAS}{2016}
+{VANDERPLAS, J. \textbf{Python data science handbook: Essential tools for
+  working with data}. [S.l.]: " O'Reilly Media, Inc.", 2016.}
+
+
+\bibitem[Virtanen et al. 2020]{virtanen2020scipy}
+\abntrefinfo{Virtanen et al.}{VIRTANEN et al.}{2020}
+{VIRTANEN, P.; GOMMERS, R.; OLIPHANT, T.~E.; HABERLAND, M.; REDDY, T.;
+  COURNAPEAU, D.; BUROVSKI, E.; PETERSON, P.; WECKESSER, W.; BRIGHT, J. et al.
+  Scipy 1.0: fundamental algorithms for scientific computing in python.
+\textbf{Nature methods}, Nature Publishing Group, v.~17, n.~3, p. 261--272,
+  2020.}
 
 
 \bibitem[Zhu e Zhang 2021]{zhu2021flood}

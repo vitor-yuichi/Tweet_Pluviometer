@@ -5,21 +5,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Plano de atividades}
 
-%RGN: Creio que esta se?ão seja necessária. Tente seguir/adaptar este exemplo do Felipe.
-{\color{magenta}
-Em um primeiro momento, o projeto iniciará com uma revisão bibliográfica sobre classificação e regressão de dados, em especial, envolvendo aplicações direcionadas ao sensoriamento remoto.
-Concomitantemente à revisão bibliográfica citada, será realizado o estudo da linguagem Python e do software ENVI, necessários para o cumprimento das etapas seguintes.
+ O projeto tem início com a revisão sistemática com relação à literatura acerca dos fenômeno hidrológico de alagamento e os principais algoritmos de Aprendizado de Máquina aplicados na área. Paralelamente, será realizado o estudo da linguagem de programação Python e do software de geoprocessamento QGIS. 
 
-Ainda na etapa inicial, serão feitas aquisições de imagens obtidas por satélites da série Landsat nos anos de 2000, 2005, 2010, 2015, 2019 e 2020 com finalidade de construir uma base de dados temporal. A seleção dos instantes em cada data está condicionada a ausência de cobertura de nuvem sobre a área de estudo.
+ Após o estudo dos conceitos necessários para o projeto, os dados de Twitter, pluviômetro, radar metereológico e a base de dados de alagamentos serão tratados e processados, para estruturar uma série temporal com o conjunto de dados. Para analisar as relações estatísticas primárias entre os dados, será realizado uma análise exploratória através de gráficos e cálculos de parâmetros estatísticos. 
 
-Posteriormente, sobre cada um dos instantes da série multitemporal, serão coletadas amostras de uso e cobertura do solo referentes as classes estabelecidas no escopo da proposta (Seção~\ref{Proposta} -- i.e.; alta, média e baixa biomassa, e outros). Em seguida, com uso do método RF, são obtidas as respectivas classificações dos instantes da série em questão, que posteriormente são usadas no cálculo de métricas espaciais para expressão das dinâmicas locais. O processo de classificação e cálculo das métricas espaciais será conduzido por funções implementadas em linguagem Python e com uso das bibliotecas Numpy e Scikit-Learn.
+ Ainda na etapa supracitada, os resultados decorrentes da análise exploratória serão submetidos aos algoritmos de treinamento, nos quais serão realizados as classificações binárias em dias de "alagamento" e "não-alagamento", com os respectivos algoritmos propostos. Após a classificação, será gerado um conjunto de dados através da validação cruzada, que incluem a acurácia do algoritmo utilizando bases de treinamento e testes distintos. Para a avaliação destes resultados, testes estatíscos citados na Seção \label{secMatMet} serão utilizados para determinar o modelo com maior acurácia para classificação de alagamentos. 
 
-Em consonância com o proposta delineada na Seção~\ref{Proposta}, serão coletadas amostras sobre áreas afetadas, ou não, por incêndios a fim de construir um conjunto de dados rotulados, e que por sua vez empregado na construção de um modelo de regressão logística. A modelagem em questão será alcançada com uso das mesmas ferramentas computacionais citadas anteriormente.
+ Dessa forma, com os resultados e inferências em mãos, serão realizados ajustes nos códigos e otimizações para possíveis melhorias na acurácia dos algoritmos e velocidade de execução. E assim, aprimorando de forma geral o modelo desenvolvido. 
 
-Em posse do modelo de regressão, serão feitas extrapolações para todas as localidades (i.e., pixels) inseridas na área de estudo, proporcionando assim um mapa de suscetibilidade de ocorrência de incêndios. A avaliação deste modelo é efetuada através da observação/comparação com regiões onde é confirmada a ocorrência, ou não, de incêndio.
-
-Por fim, a partir dos resultados, análises e conclusões obtidas, serão redigidos o relatório de atividades e trabalhos para divulgação em evento ou, se possível, periódico científico.
-}
+ Por fim, através da obtenção do modelo e conclusões, os resultados serão escritos em trabalhos para divulgação em eventos científicos.
 
 
 \section{Cronograma}
@@ -43,7 +37,7 @@ A pesquisa será realizada em 12 meses e será executada nos passos listado abaixo
 
 \begin{table}[H]
     \centering
-    \caption{Cronograma}\label{tabCorno}
+    \caption{Cronograma}\label{tabCorno} %que nome é esse KKKK
     \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
 \hline
 Mês &  & 1º & 2º & 3º & 4º & 5º & 6º & 7º & 8º & 9º & 10º & 11º & 12º \\ \hline

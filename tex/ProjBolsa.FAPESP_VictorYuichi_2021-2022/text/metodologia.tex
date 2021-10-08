@@ -7,7 +7,7 @@
 O estudo foi realizado na região de São Paulo onde está localizado a bacia hidrográfica do Rio Tamanduateí (Figura \ref{fig:area_estudo}). Esta bacia possui uma área de \(323km^2\) e se estende até as bacia hidrográficas do Rio Pinheiro, Rio Guaió, Rio Aricanduva e Córrego de Tapuapé. Nesta região, foi analisado a partir de um pluviômetro um raio espacial de \(2000m\) que abrange as regiões de alagamentos, tweets georrefenciados e a célula de radar.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{imagens/ic_att2.png}
+    \includegraphics[scale=0.5]{imagens/ic_att2.pdf}
     \caption{Área de estudo }
     \label{fig:area_estudo}
 \end{figure}
@@ -20,10 +20,9 @@ A série histórica de alagamentos na área de estudo, foram concebidas por um dos 
 
 %%%%%%%%%%%%%%%%%%
 \section{Ferramentas Computacionais}
-A análise e aplicação do projeto será realizada de maneira geral com a ferramenta \textit{Python}. Para a manipulação, filtragem e tratamento dos dados será utilizada a biblioteca \textit{Pandas} \textcolor{red}{(Ref.)}, já a análise gráfica com \textit{Matplotlib} \textcolor{red}{(Ref.)} e \textit{Seaborn} \textcolor{red}{(Ref.)}. 
+A análise e aplicação do projeto será realizada de maneira geral com a ferramenta \textit{Python}. Para a manipulação, filtragem e tratamento dos dados será utilizada a biblioteca \textit{Pandas} \cite{vanderplas2016python}.
 
-
-A aplicação de testes estatísticos na série de dados será usado \textit{Scipy} \textcolor{red}{(Ref.)} e \textit{Numpy} \textcolor{red}{(Ref.)}, para os modelos de apredizagem supracitados, a biblioteca específica para aprendizado de máquina denominado Scikit-Learn \textcolor{red}{(Ref.)}. Por fim, algumas filtrações no banco de dados de alagamentos será realizada com ferramentas de geoprocessamento do software \textit{QGIS} \textcolor{red}{(Ref.)}. 
+A aplicação de testes estatísticos na série de dados será usado \textit{Scipy} \cite{virtanen2020scipy} e \textit{Numpy} \cite{mckinney2012python}, para os modelos de aprendizagem supracitados, a biblioteca específica para aprendizado de máquina denominado Scikit-Learn \cite{pedregosa2011scikit}. Por fim, algumas filtrações no banco de dados de alagamentos será realizada com ferramentas de geoprocessamento do software \textit{QGIS} \cite{samela2018gis}. 
 
 
 %%%%%%%%%%%%%%%%%%
@@ -37,17 +36,30 @@ A série temporal analisada compreende os três primeiros meses do ano de 2019. Pa
 Com base na estrutura (Figura \ref{fig:metodologia}), será registrado em único arquivo, na mesma série temporal, o número de tweets filtrados, os valores de precipitação do radar e o pluviomêtro, e se houve alagamentos no dias analisados. Este dados processados em um único arquivo, possibilitarão a submissão nos modelos de aprendizados propostos, dividindo-se em base de dados para teste e treinamento.  
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{imagens/medotologia.png}
-    \caption{Metodologia \textcolor{red}{(Ficou bonito heim! Agora faca uns ajustes: dê uma espremida na vertical; aumente um pouco a fonte; use setas com curvas para nao confundir com a borda dos blocos; use uma linha pontilhada para a borda dos blocos; disponbilize este diagrama no repositorio, caso ainda não esteja lá; sempre que puder, use figuras em pdf, pois o documento final fica melhor e menor em termos de megabytes.)}}
+    \includegraphics[width=0.6\textwidth]{imagens/metodologia.pdf}
+    \caption{Metodologia}
     \label{fig:metodologia}
 \end{figure}
-
+%\textcolor{red}{(Ficou bonito heim! Agora faca uns ajustes: dê uma espremida na vertical; aumente um pouco a fonte; use setas com curvas para nao confundir com a borda dos blocos; use uma linha pontilhada para a borda dos blocos; disponbilize este diagrama no repositorio, caso ainda não esteja lá; sempre que puder, use figuras em pdf, pois o documento final fica melhor e menor em termos de megabytes.)}
 
 Como a classificação binária consiste em dias de alagamento e não alagamento, a acurácia será medida a partir da base de dados de teste. Após o treinamento nos modelo SVM e Floresta Aleatória e Redes Neurais, serão analisadas a acurácia através da validação cruzada e subsequentemente testes estatísticos como ANOVA e coeficiente Kappa, determinando-se assim, o algoritmo que possui maior potencial para o desenvolvimento de um sistema de alerta com base nos dados disponíveis. 
 
 
 
 %\section{Cronograma}
+
+% O projeto tem início com a revisão sistemática com relação à literatura acerca dos fenômeno hidrológico de alagamento e os principais algoritmos de Aprendizado de Máquina aplicados na área. Paralelamente, será realizado o estudo da linguagem de programação Python e do software de geoprocessamento QGIS. 
+
+% Após o estudo dos conceitos necessários para o projeto, os dados de Twitter, pluviômetro, radar metereológico e a base de dados de alagamentos serão tratados e processados, para estruturar uma série temporal com o conjunto de dados. Para analisar as relações estatísticas primárias entre os dados, será realizado uma análise exploratória através de gráficos e cálculos de parâmetros estatísticos. 
+
+% Ainda na etapa supracitada, os resultados decorrentes da análise exploratória serão submetidos aos algoritmos de treinamento, nos quais serão realizados as classificações binárias em dias de "alagamento" e "não-alagamento", com os respectivos algoritmos propostos. Após a classificação, será gerado um conjunto de dados através da validação cruzada, que incluem a acurácia do algoritmo utilizando bases de treinamento e testes distintos. Para a avaliação destes resultados, testes estatíscos citados na Seção \label{secMatMet} serão utilizados para determinar o modelo com maior acurácia para classificação de alagamentos. 
+
+% Dessa forma, com os resultados e inferências em mãos, serão realizados ajustes nos códigos e otimizações para possíveis melhorias na acurácia dos algoritmos e velocidade de execução. E assim, aprimorando de forma geral o modelo desenvolvido. 
+
+% Por fim, através da obtenção do modelo e conclusões, os resultados serão escritos em trabalhos para divulgação em eventos científicos.
+
+
+
 %A pesquisa será realizada em 12 meses e será executada nos passos listado abaixo (Tabela 1) \\ 
 %A - Revisão sistemática em desastres associados à alagamentos e modelos de classificação; \\
 %B - Estudo dos modelos de aprendizado de máquina e aplicação em Python; \\
@@ -57,7 +69,7 @@ Como a classificação binária consiste em dias de alagamento e não alagamento, a 
 %F - Classificação; \\  
 %G - Cálculos estatísticos e inferências;\\
 %H - Alterações, ajustes e otimizações no modelo de melhor desempenho; \\
-%I - Análise e conclusão dos resultados; \\
+%I - Análise e conclusão dos resultados. Envio do trabalho para eventos e congressos científicos ; \\
 %J - Relatório final 
 %\begin{table}[H]
 %    \centering
