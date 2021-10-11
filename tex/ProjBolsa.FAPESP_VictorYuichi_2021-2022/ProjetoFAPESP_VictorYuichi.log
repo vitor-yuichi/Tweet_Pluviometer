@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.5)  8 OCT 2021 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.5)  11 OCT 2021 15:22
 entering extended mode
 **./ProjetoFAPESP_VictorYuichi.tex
 (ProjetoFAPESP_VictorYuichi.tex
@@ -1433,7 +1433,7 @@ Package hyperref Info: Reference (link) `figure.5.1' on input line 7.
 
 pdfTeX warning: pdflatex.exe (file ./imagens/ic_att2.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<imagens/ic_att2.pdf, id=251, 791.20593pt x 232.61906pt>
+<imagens/ic_att2.pdf, id=252, 791.20593pt x 232.61906pt>
 File: imagens/ic_att2.pdf Graphic file (type pdf)
 <use imagens/ic_att2.pdf>
 Package pdftex.def Info: imagens/ic_att2.pdf  used on input line 10.
@@ -1536,7 +1536,7 @@ Package hyperref Info: Reference (link) `figure.5.2' on input line 36.
 
 pdfTeX warning: pdflatex.exe (file ./imagens/metodologia.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<imagens/metodologia.pdf, id=286, 512.66531pt x 618.05907pt>
+<imagens/metodologia.pdf, id=287, 512.66531pt x 618.05907pt>
 File: imagens/metodologia.pdf Graphic file (type pdf)
 <use imagens/metodologia.pdf>
 Package pdftex.def Info: imagens/metodologia.pdf  used on input line 39.
@@ -1631,14 +1631,16 @@ Package hyperref Info: bookmark on input line 3:
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
 Package hyperref Info: Anchor `cite.de2015geographic' on input line 15.
-Package hyperref Info: Reference (link) `page.2' on input line 15.
+Package hyperref Info: Reference (link) `page.1' on input line 15.
+Package hyperref Info: Reference (link) `page.5' on input line 15.
 Package hyperref Info: Reference (link) `page.6' on input line 15.
 Package hyperref Info: Anchor `cite.de2021effect' on input line 25.
-Package hyperref Info: Reference (link) `page.6' on input line 25.
-Package hyperref Info: Reference (link) `page.11' on input line 25.
+Package hyperref Info: Reference (link) `page.5' on input line 25.
+Package hyperref Info: Reference (link) `page.10' on input line 25.
 Package hyperref Info: Anchor `page.14' on input line 25.
  [14
-Package `hyperref' Info: End of reference (link) `page.2', line 15.
+Package `hyperref' Info: End of reference (link) `page.1', line 15.
+Package `hyperref' Info: End of reference (link) `page.5', line 15.
 Package `hyperref' Info: End of reference (link) `page.6', line 15.
 ]
 Package hyperref Info: Anchor `cite.marshall1948mc' on input line 31.
@@ -1695,11 +1697,11 @@ l.31
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-Package hyperref Info: Reference (link) `page.10' on input line 31.
+Package hyperref Info: Reference (link) `page.9' on input line 31.
 Package hyperref Info: Anchor `cite.braga2016alagamentos' on input line 38.
-Package hyperref Info: Reference (link) `page.5' on input line 38.
+Package hyperref Info: Reference (link) `page.4' on input line 38.
 Package hyperref Info: Anchor `cite.breiman2001random' on input line 44.
-Package hyperref Info: Reference (link) `page.8' on input line 44.
+Package hyperref Info: Reference (link) `page.7' on input line 44.
 Package hyperref Info: Anchor `cite.deparday2019machine' on input line 51.
 Package hyperref Info: Reference (link) `page.6' on input line 51.
 Package hyperref Info: Anchor `cite.doocy2013human' on input line 58.
@@ -1733,52 +1735,52 @@ or \DeclareInputMath before using this key.
 
 Package hyperref Info: Reference (link) `page.8' on input line 66.
 Package hyperref Info: Anchor `cite.hansmann2013descriccao' on input line 73.
-Package hyperref Info: Reference (link) `page.5' on input line 73.
+Package hyperref Info: Reference (link) `page.4' on input line 73.
 Package hyperref Info: Anchor `cite.hirata2013mapeamento' on input line 81.
-Package hyperref Info: Reference (link) `page.2' on input line 81.
+Package hyperref Info: Reference (link) `page.1' on input line 81.
 Package hyperref Info: Anchor `cite.horita2015development' on input line 90.
-Package hyperref Info: Reference (link) `page.2' on input line 90.
-Package hyperref Info: Reference (link) `page.6' on input line 90.
+Package hyperref Info: Reference (link) `page.1' on input line 90.
+Package hyperref Info: Reference (link) `page.5' on input line 90.
 Package hyperref Info: Anchor `page.15' on input line 90.
 [15
-Package `hyperref' Info: End of reference (link) `page.6', line 25.
-Package `hyperref' Info: End of reference (link) `page.11', line 25.
-Package `hyperref' Info: End of reference (link) `page.10', line 31.
-Package `hyperref' Info: End of reference (link) `page.5', line 38.
-Package `hyperref' Info: End of reference (link) `page.8', line 44.
+Package `hyperref' Info: End of reference (link) `page.5', line 25.
+Package `hyperref' Info: End of reference (link) `page.10', line 25.
+Package `hyperref' Info: End of reference (link) `page.9', line 31.
+Package `hyperref' Info: End of reference (link) `page.4', line 38.
+Package `hyperref' Info: End of reference (link) `page.7', line 44.
 Package `hyperref' Info: End of reference (link) `page.6', line 51.
 Package `hyperref' Info: End of reference (link) `page.5', line 58.
 Package `hyperref' Info: End of reference (link) `page.8', line 66.
-Package `hyperref' Info: End of reference (link) `page.5', line 73.
-Package `hyperref' Info: End of reference (link) `page.2', line 81.
+Package `hyperref' Info: End of reference (link) `page.4', line 73.
+Package `hyperref' Info: End of reference (link) `page.1', line 81.
 ]
 Package hyperref Info: Anchor `cite.kobiyama2006prevenccao' on input line 98.
-Package hyperref Info: Reference (link) `page.2' on input line 98.
+Package hyperref Info: Reference (link) `page.1' on input line 98.
 Package hyperref Info: Anchor `cite.lian2006multi' on input line 105.
-Package hyperref Info: Reference (link) `page.7' on input line 105.
+Package hyperref Info: Reference (link) `page.6' on input line 105.
 Package hyperref Info: Anchor `cite.liu2020random' on input line 113.
-Package hyperref Info: Reference (link) `page.8' on input line 113.
+Package hyperref Info: Reference (link) `page.7' on input line 113.
 Package hyperref Info: Anchor `cite.maselli2019integraccao' on input line 121.
-Package hyperref Info: Reference (link) `page.8' on input line 121.
+Package hyperref Info: Reference (link) `page.7' on input line 121.
 Package hyperref Info: Anchor `cite.mckinney2012python' on input line 127.
 Package hyperref Info: Reference (link) `page.10' on input line 127.
 Package hyperref Info: Anchor `cite.mohri2018foundations' on input line 133.
-Package hyperref Info: Reference (link) `page.7' on input line 133.
+Package hyperref Info: Reference (link) `page.6' on input line 133.
 Package hyperref Info: Anchor `cite.mosavi2018flood' on input line 141.
-Package hyperref Info: Reference (link) `page.3' on input line 141.
+Package hyperref Info: Reference (link) `page.2' on input line 141.
 Package hyperref Info: Anchor `page.16' on input line 148.
  [16
-Package `hyperref' Info: End of reference (link) `page.2', line 90.
-Package `hyperref' Info: End of reference (link) `page.6', line 90.
-Package `hyperref' Info: End of reference (link) `page.2', line 98.
-Package `hyperref' Info: End of reference (link) `page.7', line 105.
-Package `hyperref' Info: End of reference (link) `page.8', line 113.
-Package `hyperref' Info: End of reference (link) `page.8', line 121.
+Package `hyperref' Info: End of reference (link) `page.1', line 90.
+Package `hyperref' Info: End of reference (link) `page.5', line 90.
+Package `hyperref' Info: End of reference (link) `page.1', line 98.
+Package `hyperref' Info: End of reference (link) `page.6', line 105.
+Package `hyperref' Info: End of reference (link) `page.7', line 113.
+Package `hyperref' Info: End of reference (link) `page.7', line 121.
 Package `hyperref' Info: End of reference (link) `page.10', line 127.
-Package `hyperref' Info: End of reference (link) `page.7', line 133.
+Package `hyperref' Info: End of reference (link) `page.6', line 133.
 ]
 Package hyperref Info: Anchor `cite.naaman2011geographic' on input line 148.
-Package hyperref Info: Reference (link) `page.6' on input line 148.
+Package hyperref Info: Reference (link) `page.5' on input line 148.
 Package hyperref Info: Anchor `cite.pedregosa2011scikit' on input line 157.
 Package hyperref Info: Reference (link) `page.10' on input line 157.
 Package hyperref Info: Anchor `cite.pacheco2020mapeamento' on input line 164.
@@ -1786,7 +1788,7 @@ Package hyperref Info: Reference (link) `page.8' on input line 164.
 Package hyperref Info: Anchor `cite.samela2018gis' on input line 172.
 Package hyperref Info: Reference (link) `page.10' on input line 172.
 Package hyperref Info: Anchor `cite.santos2013impactos' on input line 180.
-Package hyperref Info: Reference (link) `page.2' on input line 180.
+Package hyperref Info: Reference (link) `page.1' on input line 180.
 Package hyperref Info: Anchor `cite.da2016utilizaccao' on input line 190.
 Package hyperref Info: Reference (link) `page.8' on input line 190.
 Package hyperref Info: Anchor `cite.sit2019identifying' on input line 198.
@@ -1796,30 +1798,30 @@ Package hyperref Info: Anchor `cite.theodoridis2010introduction' on input line
 Package hyperref Info: Reference (link) `page.7' on input line 205.
 Package hyperref Info: Anchor `page.17' on input line 205.
  [17
-Package `hyperref' Info: End of reference (link) `page.3', line 141.
-Package `hyperref' Info: End of reference (link) `page.6', line 148.
+Package `hyperref' Info: End of reference (link) `page.2', line 141.
+Package `hyperref' Info: End of reference (link) `page.5', line 148.
 Package `hyperref' Info: End of reference (link) `page.10', line 157.
 Package `hyperref' Info: End of reference (link) `page.8', line 164.
 Package `hyperref' Info: End of reference (link) `page.10', line 172.
-Package `hyperref' Info: End of reference (link) `page.2', line 180.
+Package `hyperref' Info: End of reference (link) `page.1', line 180.
 Package `hyperref' Info: End of reference (link) `page.8', line 190.
 Package `hyperref' Info: End of reference (link) `page.2', line 198.
 ]
 Package hyperref Info: Anchor `cite.vanderplas2016python' on input line 211.
-Package hyperref Info: Reference (link) `page.10' on input line 211.
+Package hyperref Info: Reference (link) `page.9' on input line 211.
 Package hyperref Info: Anchor `cite.virtanen2020scipy' on input line 220.
 Package hyperref Info: Reference (link) `page.10' on input line 220.
 Package hyperref Info: Anchor `cite.zhu2021flood' on input line 227.
-Package hyperref Info: Reference (link) `page.8' on input line 227.
+Package hyperref Info: Reference (link) `page.7' on input line 227.
 )
 No file ProjetoFAPESP_VictorYuichi.ind.
 AED: lastpage setting LastPage 
 Package hyperref Info: Anchor `page.18' on input line 93.
 [18
 Package `hyperref' Info: End of reference (link) `page.7', line 205.
-Package `hyperref' Info: End of reference (link) `page.10', line 211.
+Package `hyperref' Info: End of reference (link) `page.9', line 211.
 Package `hyperref' Info: End of reference (link) `page.10', line 220.
-Package `hyperref' Info: End of reference (link) `page.8', line 227.
+Package `hyperref' Info: End of reference (link) `page.7', line 227.
 ] (ProjetoFAPESP_VictorYuichi.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1827,9 +1829,14 @@ LaTeX Warning: There were multiply-defined labels.
 Package rerunfilecheck Info: File `ProjetoFAPESP_VictorYuichi.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: 4B4A38FCDFF296EE0B8F6E85DF38F118;3472.
-Package rerunfilecheck Info: File `ProjetoFAPESP_VictorYuichi.brf' has not chan
-ged.
-(rerunfilecheck)             Checksum: C33184824E10AE37C6B55DC0D63A89D9;1906.
+
+Package rerunfilecheck Warning: File `ProjetoFAPESP_VictorYuichi.brf' has chang
+ed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `ProjetoFAPESP_VictorYuichi.brf':
+(rerunfilecheck)             Before: 8F4672B8BAA8791B8671D4103F1D5EE2;1904
+(rerunfilecheck)             After:  C33184824E10AE37C6B55DC0D63A89D9;1906.
  ) 
 Here is how much of TeX's memory you used:
  15149 strings out of 478927
@@ -1857,9 +1864,9 @@ ad/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/xdead
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/xdead
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/xdead/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ProjetoFAPESP_VictorYuichi.pdf (19 pages, 674438 bytes).
+Output written on ProjetoFAPESP_VictorYuichi.pdf (19 pages, 674500 bytes).
 PDF statistics:
- 453 PDF objects out of 1000 (max. 8388607)
+ 455 PDF objects out of 1000 (max. 8388607)
  86 named destinations out of 1000 (max. 500000)
  182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
