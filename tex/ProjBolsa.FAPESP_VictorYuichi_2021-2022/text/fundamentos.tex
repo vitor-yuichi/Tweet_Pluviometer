@@ -1,17 +1,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Fundamentação Teórica}\label{secFundamentos}
+\chapter{FUNDAMENTAÇÃO TEÓRICA}\label{secFundamentos}
 
 %%%%%%%%%%%%%%%%%%
 \section{Alagamentos}
 
 Os alagamentos são fenômenos complexos, uma vez que a sua causa está  interrelacionada a uma gama parâmetros como o clima, %que incluem precipitação forte ou persistente, 
-falhas estruturais urbanas, sistemas de drenagem inadequados, bacias hidrográficas, proximidades de corpos aquáticos, uso e ocupação inapropriado do solo, entre outros \cite{doocy2013human}. 
+falhas estruturais urbanas, sistemas de drenagem inadequados, bacias hidrográficas, proximidades de corpos aquáticos, uso e ocupação inapropriado do solo, dentre outros \cite{doocy2013human}. 
 
 
-A ausência de planejamento urbano e a rápida modificação do espaço culmina na impermeabilização do solo, contribuindo para diminuição do tempo concentração e o aumento do volume de escoamento superficial, amplificando assim o pico da vazão e consequentemente saturando a drenagem pluvial do local \cite{hansmann2013descriccao}. 
+A ausência de planejamento urbano e a rápida modificação do espaço culminam na impermeabilização do solo, contribuindo para diminuição do tempo concentração e o aumento do volume de escoamento superficial, amplificando assim o pico da vazão e consequentemente saturando a drenagem pluvial do local \cite{hansmann2013descriccao}. 
 A topografia %e a elevação do 
-local também é um fator preponderante para a ocorrência de alagamentos, uma vez que verificado que locais com maior frequência de alagamentos tem características morfométricas planas, depressões ou fundos de vales, dificultando o processo de escoamento superficial local \cite{braga2016alagamentos}.
-Ainda, devido a ausência de educação ambiental da população, o descarte inadequado de resíduos sólidos surge como outro fator causador da obstrução dos sistema de drenagem do local, levando mais uma vez aos eventos de alagamento.
+local também é um fator preponderante para a ocorrência de alagamentos, uma vez que já verificado que locais com maior frequência de alagamentos tem características morfométricas planas, depressões ou fundos de vales, dificultando o processo de escoamento superficial local \cite{braga2016alagamentos}.
+Ainda, devido a ausência de educação ambiental da população, o descarte inadequado de resíduos sólidos surge como outro fator causador da obstrução dos sistema de drenagem do local, levando mais uma vez aos alagamentos.
 
 
 %Os alagamentos são fenômenos associados ao acúmulo de água em determinado local, favorecidos pela microdrenagem e macrodrenagem insuficientes. 
@@ -25,17 +25,22 @@ O desenvolvimento da sociedade na esfera tecnológica permitiu a ascensão meteóri
 A quantidade massiva de dados gerados por estas redes consolidam a interação do universo virtual com o mundo concreto, onde usuários expressam suas percepções e emoções acerca dos eventos circundantes \cite{naaman2011geographic}. A atividade das redes sociais e sua heterogeneidade espacial demonstra a potencialidade para o monitoramento de eventos meteorológicos \cite{de2021effect}. 
 
 
-Através das plataformas de mídia social, uma única postagem pode ser vista por milhares de usuários simultaneamente. Além disso, algumas plataformas fazem uso de dados georreferenciados, permitindo por sua vez a visualização não só da postagem como também da localização do usuário. Redes sociais como Twitter ou aplicativos como OpenStreetMap, os quais são munidos de georreferenciamento são ditos  ``de informações geográficas voluntárias''. Neste contexto, o trabalho de \citen{horita2015development} integra estas plataformas para o gerenciamento de risco dos alagamentos. 
+%Através das plataformas de mídia social, uma única postagem pode ser vista por milhares de usuários simultaneamente. Além disso, algumas plataformas fazem uso de dados georreferenciados, permitindo por sua vez a visualização não só da postagem como também da localização do usuário. Redes sociais como Twitter ou aplicativos como OpenStreetMap, os quais são munidos de georreferenciamento são ditos  ``de informações geográficas voluntárias''. Neste contexto, o trabalho de \citen{horita2015development} integra estas plataformas para o gerenciamento de risco dos alagamentos. 
 
 
-A utilização das redes sociais apresentam uma crescente tendência quanto a sua incorporação em pesquisas para o monitoramento e análise de diferentes tipos de eventos. Segundo \citen{de2015geographic}, a utilização de informações geográficas voluntárias, principalmente advindas da rede a social Twitter, são componentes fundamentais para a maior consciência dos eventos de desastres, consolidando assim uma melhor percepção do ambiente além de possibilitar maior compreensão das possíveis consequências.
+Através das plataformas de mídia social, uma única postagem pode ser vista por milhares de usuários simultaneamente. Além disso, algumas plataformas fazem uso de dados georreferenciados, permitindo por sua vez a visualização não só da postagem como também da localização do usuário. A redes sociais Twitter e o aplicativos OpenStreetMap são dois exemplos neste contexto.
+%, os quais são munidos de georreferenciamento são ditos  ``de informações geográficas voluntárias''. 
+Neste contexto, o trabalho de \citen{horita2015development} integra estas plataformas para o gerenciamento de risco de alagamento. 
+
+
+A utilização das redes sociais apresentam uma crescente tendência quanto a sua incorporação em pesquisas para o monitoramento e análise de diferentes tipos de eventos. Segundo \citen{de2015geographic}, a utilização de informações geográficas voluntárias, principalmente advindas da rede Twitter, são componentes fundamentais para a maior consciência dos eventos de desastres, consolidando assim uma melhor percepção do ambiente além de possibilitar maior compreensão das possíveis consequências.
  
  
  
 %%%%%%%%%%%%%%%%%%
 \section{Classificação}
 
-Técnicas de Aprendizado de Máquina são cada vez mais empregadas nos estudos sobre desastres de naturais. Alguns estudos utilizam tais técnicas para analisar a semântica atrelada às postagens em redes sociais, permitindo assim  aprimorar os resultados de classificação de determinada tipo de evento \cite{de2015geographic, deparday2019machine}. 
+Técnicas de Aprendizado de Máquina são cada vez mais empregadas no estudo dos desastres de naturais. Algumas pesquisas utilizam tais técnicas para analisar a semântica atrelada às postagens em redes sociais, permitindo assim  aprimorar os resultados de classificação de determinada tipo de evento \cite{de2015geographic, deparday2019machine}. 
 
 
 %Esta tecnologia pode ser definida como um conjunto métodos computacionais para aprimorar performance ou realizar predições acuradas. 
@@ -46,13 +51,14 @@ utilizados para associação de cada item em uma série de dados em relação a uma d
 Formalmente, a classificação é descrita por uma função $F: \mathcal{X} \rightarrow \mathcal{Y}$ que associa elementos no conjunto de atributos \(\mathcal{X}\) a uma classe de \(\Omega=\{\omega_1, \omega_2,...,\omega_n\}\), com \(n \in \mathbb{N}^*\) por intermédio de um indicador de classe \(\mathcal{Y} \in \{1,2,...,n\}\). Nestas condições, quando \(x \in \mathcal{X}\) e \(y \in \mathcal{Y}\), a função \(y=F(x)\) indica que x pertence à \(\Omega_y\).
 
 
-Em relação aos modelos de classificação com aprendizado supervisionado, a função \(F\) faz uso de informações extraídas de conjunto de treinamento \(\mathcal{D}=\{(x_j,\omega_j \in \times \Omega : i=1,...m; \ j=1,...,c \}\).%, no qual \(m \) é a quantidade de dados no treinamento.
-Dentre diversas propostas existentes na literatura, \textit{Suport Vector Machine} (SVMs), \textit{Random Forest} (RF) \cite{mohri2018foundations} e 
+Em relação aos modelos de classificação com aprendizado supervisionado, a função \(F\) faz uso de informações extraídas de conjunto de treinamento \(\mathcal{D}=\{(x_j,\omega_j) \in \mathcal{X} \times \Omega : i=1,...,m \}\). 
+Dentre diversas propostas existentes na literatura, \textit{Suport Vector Machine} (SVMs), \textit{Random Forest} (RF) e %\cite{mohri2018foundations} e 
 \textit{Multilayer Perceptron} (MLP) 
 %as Redes Neurais
 são empregados frequentemente nos mais diversos domínios de aplicação.
-=======
-Atualmente os principais algoritmos empregados para classificação são o \textit{Suport Vector Machine} (SVMs), \textit{Random Forest} (RF) e \textit{Multilayer Perceptron} (MLP) \cite{mohri2018foundations}. 
+
+%=======
+%Atualmente os principais algoritmos empregados para classificação são o \textit{Suport Vector Machine} (SVMs), \textit{Random Forest} (RF) e \textit{Multilayer Perceptron} (MLP) \cite{mohri2018foundations}. 
 
 
 
@@ -78,14 +84,14 @@ A determinação do hiperplano com maior margem de separação é obtido com a otimiz
 onde $C$ é o parâmetro utilizado para regularização do hiperplano e \(\gamma_i\) são multiplicadores de Lagrange. 
 
 
-A definição dos parâmetros que determinam o hiperplano são $w=\sum_{\forall x_i \in SV}y_i \gamma_i x_i$ e $b=\frac{1}{\#SV}(\sum_{x_i \in SV} y_i+ \sum_{x_i \in SV} \cdot \sum_{x_j \in SV} \gamma_i \gamma_j y_i y_j \langle x_i,x_j \rangle)$, onde $SV$ é um subconjunto das amostrar em \(\mathcal{D}\) denominados por vetores suporte. Por fim indicação da classe pertencente do vetor analisado é dado pelo sinal da função discriminante \(f(x)\) \cite{maselli2019integraccao}.
+A definição dos parâmetros que determinam o hiperplano são $w=\sum_{\forall x_i \in SV}y_i \gamma_i x_i$ e $b=\frac{1}{\#SV}(\sum_{x_i \in SV} y_i+ \sum_{x_i \in SV} \cdot \sum_{x_j \in SV} \gamma_i \gamma_j y_i y_j \langle x_i,x_j \rangle)$, onde $SV$ é um subconjunto das amostrar em \(\mathcal{D}\) tal que $\gamma_i \neq 0$, denominados por vetores suporte. Por fim, a indicação da classe associada ao vetor analisado é dado pelo sinal da função discriminante \(f(x)\) \cite{maselli2019integraccao}.
 
 
 
 %-----------------
 \subsection{RF}
 O método RF tem sido amplamente utilizada em aplicações relacionadas a identificação de eventos hidrológicos. Em \citen{zhu2021flood} e \citen{liu2020random} são demonstradas as potencialidades deste método na avaliação da  resiliência e identificação dos padrões espaciais de alagamentos. 
-De modo superficial, segundo \citen{breiman2001random}, este método é representado por um conjunto de árvores de decisão que combinam suas respectivas saídas através de um esquema de vota?ão por maioria a fim de tomar uma decisão final.
+De modo superficial, segundo \citen{breiman2001random}, este método é representado por um conjunto de árvores de decisão que combinam suas respectivas saídas através de um esquema de votação por maioria a fim de tomar uma decisão final.
 
 %, o RF consiste em uma coleção de classificadores em forma de árvore de decisão
 %
@@ -102,15 +108,15 @@ O método MLP tem sido empregado para emissão de alertas hidrológicos e mapeament
 
 %A técnica \textit{Multilayer Perceptron} demonstra resultados relevantes as mais diversas áreas da ciência \cite{gardner1998artificial}. 
 
-Este método compreende em um sistema de conexões ponderadas entre neurônios artificiais distribuídos em diferentes camadas.% com ponderações associadas a estas diferentes
+Este método compreende em um sistema de conexões ponderadas entre neurônios artificiais distribuídos em diferentes camadas. % com ponderações associadas a estas diferentes
 %, estes nós são conectados entre si por um peso. 
-Matematicamente as camadas de neurônios de entrada e saída são vetores definidos como $\mathbf{i}$ e $\mathbf{o}$ respectivamente, e os pesos por uma matriz $\mathbf{W}$. Netas condições, a saída da rede é dada por $\mathbf{o}= f( \mathbf{iW}) $, onde 
+Matematicamente as camadas de neurônios de entrada e saída são vetores $\mathbf{i}$ e $\mathbf{o}$, respectivamente, e os pesos estruturados em uma matriz $\mathbf{W}$. Netas condições, a saída da rede é dada por $\mathbf{o}= f( \mathbf{iW}) $, onde 
 %ao final do processo uma função determina se aquele nó será ativado na condição 
 $f(x)\begin{cases} 
 1, \ x>0 \\
 0, \ \textrm{caso contrário}
 \end{cases}$, atua como uma função de ativação para a entrada $x$ apresentada. 
-Assumindo que $\mathbf{t}$ é consiste na saída esperada, é calculado o erro associado através de $E(\mathbf{o})=\mathbf{t}-\mathbf{o}=\mathbf{t}-f(iW)$.
+Assumindo que $\mathbf{t}$ é consiste na saída esperada, é calculado o erro associado através de $E(\mathbf{o})=\mathbf{t}-\mathbf{o}=\mathbf{t}-f(\mathbf{iW})$.
 O processo de treinamento do MLP é dados pela atualização dos pesos em $\mathbf{W}$ a fim de minimizar os erros $E(\mathbf{o})$.
 
 %

@@ -5,22 +5,25 @@
 %%%%%%%%%%%%%%%%%%
 \section{Área de estudo e dados disponíveis}
 Este projeto admite como área de estudo a região de São Paulo inserida na bacia hidrográfica do Rio Tamanduateí (Figura \ref{fig:area_estudo}). 
-Esta bacia possui uma área de $\SI{323}{\kilo \meter ^2}$ e se estende até as bacia hidrográficas do Rio Pinheiro, Rio Guaió, Rio Aricanduva e Córrego de Tapuapé. Esta área foi definida a partir da vizinhança de um pluviômetro, segundo  um raio espacial de \SI{2000}{\meter}, que por sua vez abrange diferentes regiões de alagamento, Tweets disponíveis e a célula de um radar meteorológico.
+Esta bacia possui uma área de $\SI{323}{\kilo \meter ^2}$ e se estende até as bacia hidrográficas dos Rios Pinheiro, Guaió, Aricanduva e Córrego de Tapuapé. Esta área foi definida a partir da vizinhança de um pluviômetro, segundo  um raio espacial de \SI{2000}{\meter}, e que abrange diferentes regiões de alagamento, Tweets disponíveis e a célula de um radar meteorológico.
 
 %-----------------------------
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{imagens/ic_att2.pdf}
+    \includegraphics[width=\textwidth]{imagens/ic_att2.pdf}
     \caption{Área de estudo }
     \label{fig:area_estudo}
 \end{figure}
 
 
-Os dados da rede social Twitter foram extraídas através de API (\textit{Application Programming Interface}) disponibilizada pela própria rede social. Os dados pluviométricos são coletados do pluviômetro $\#833A$, pertencente ao Centro Nacional e Alertas e Desastres Naturais (CEMADEN), os quais são disponibilizados publicamente pela instituição.  
-
+Os dados de Twitter foram extraídas através de API (\textit{Application Programming Interface}) disponibilizada pela própria rede social. Os dados pluviométricos são coletados do pluviômetro $\#833A$, pertencente ao Centro Nacional e Alertas e Desastres Naturais (CEMADEN), os quais são disponibilizados publicamente pela instituição.  
+A série histórica de alagamentos na área de estudo encontra-se disponível por intermédio do CEMADEN.
 
 %RGN: essa parte do radar esta um pouco obscura. O que o radar oferece? probabilidade? concentra?ão de agua?
-A série histórica de alagamentos na área de estudo, foram concebidas por um dos integrantes da pesquisa. Os dados metereológicos foram extraídos por estações pertencentes ao CEMADEN, o equipamento está localizado na cidade de São Roque - SP e atualmente está em operação pelo Departamento de Controle do Espaço Aéreo (DECEA). O equipamento monitora deslocamento, atuação de nuvens e núcleos de instabilidade, mensurando o volume de precipitação em determinado local. Esse radar tem alcance de 250 km, cobrindo toda a região metropolitana de São Paulo. O produto de radar usado para o CAPPI (Constant Altitude Plan Position Indicator) na altura de 3 km. Este produto possui uma resolução espacial de aproximadamente 1 km e uma resolução temporal de 10 minutos. Para a conversão da refletividade (dBZ) em taxa de separação (mm / h) foi utilizado em relação a Marshall-Palmer \cite{marshall1948mc}) e a seguir os dados foram acumulados por dia. 
+%A série histórica de alagamentos na área de estudo, foram concebidas por um dos integrantes da pesquisa. Os dados metereológicos foram extraídos por estações pertencentes ao CEMADEN, o equipamento está localizado na cidade de São Roque - SP e atualmente está em operação pelo Departamento de Controle do Espaço Aéreo (DECEA). O equipamento monitora deslocamento, atuação de nuvens e núcleos de instabilidade, mensurando o volume de precipitação em determinado local. Esse radar tem alcance de 250 km, cobrindo toda a região metropolitana de São Paulo. O produto de radar usado para o CAPPI (Constant Altitude Plan Position Indicator) na altura de 3 km. Este produto possui uma resolução espacial de aproximadamente 1 km e uma resolução temporal de 10 minutos. Para a conversão da refletividade (dBZ) em taxa de separação (mm / h) foi utilizado em relação a Marshall-Palmer \cite{marshall1948mc}) e a seguir os dados foram acumulados por dia. 
+
+Os dados advindos do radar meteorológico foram extraídos por uma estação localizada na cidade de São Roque. Este equipamento, pertence ao CEMADEN e atualmente é operado pelo Departamento de Controle do Espaço Aéreo (DECEA), realiza o monitoramento do deslocamento, atuação de nuvens e núcleos de instabilidade, mensurando o volume de precipitação em determinado local. Ainda, este radar tem alcance de \SI{250}{\kilo\meters}, cobrindo toda a região metropolitana de São Paulo. O produto de radar usado é denominado CAPPI (\textit{Constant Altitude Plan Position Indicator}), % na altura de 3 km. 
+que possui resolução espacial de aproximadamente \SI{1}{\kilo\meter} e uma resolução temporal de 10 minutos. Para a conversão da refletividade (dBZ) em taxa de separação (mm/h) será utilizada a relação de Marshall-Palmer \cite{marshall1948mc}), e então representados como ``acumulado diário''.
 
 
 
@@ -28,7 +31,7 @@ A série histórica de alagamentos na área de estudo, foram concebidas por um dos 
 \section{Ferramentas Computacionais}
 O desenvolvimento do projeto será pautado por programação via linguagem \textit{Python}. A manipulação, filtragem e tratamento dos dados será suportada pelas bibliotecas \textit{Pandas} \cite{vanderplas2016python} e \textit{Numpy} \cite{mckinney2012python}.
 
-Para a aplicação de testes estatísticos, será feito uso da biblioteca \textit{Scipy} \cite{virtanen2020scipy}. De forma semelhante, os métodos de classificação empregados na pesquisa serão obtidos da biblioteca Scikit-Learn \cite{pedregosa2011scikit}.
+Para a aplicação de testes estatísticos, será feito uso da biblioteca \textit{Scipy} \cite{virtanen2020scipy}. De forma semelhante, os métodos de classificação empregados na pesquisa (i.e., SVM, RF e MLP) serão obtidos da biblioteca Scikit-Learn \cite{pedregosa2011scikit}.
 
 %, para os modelos de aprendizagem supracitados, a biblioteca específica para aprendizado de máquina denominado Scikit-Learn \cite{pedregosa2011scikit}. 
 
@@ -40,24 +43,37 @@ Por fim, operações necessárias sobre banco de dados serão realizada com apoio do
 %%%%%%%%%%%%%%%%%%
 \section{Proposta de algoritmo para definição do modelo}
 
-A concepção inicial desta proposta de pesquisa consiste no uso de séries temporais  dos alagamentos, Tweets, e dados registrados por pluviômetro e radar meteorológico, a fim de construir um método para previsão de eventos de alagamento.
+A concepção inicial desta proposta de pesquisa consiste no uso de séries temporais de alagamentos, Tweets, dados registrados por pluviômetro e radar meteorológico, a fim de construir um método para previsão de eventos de alagamento.
+Uma visão geral da proposta é ilustrada na Figura~\ref{fig:metodologia}.
 
 % quais são o melhor conjuntos de parâmetros em dias de alagamentos, associando-se ao número mínimo necessário de tweets para emissão de um alerta. 
 
 
-A série temporal analisada compreende os três primeiros meses do ano de 2019. Para a base de dados dos tweets, o processamento consiste no recorte temporal e filtração do tweets com base na lista de palavras associadas ao contexto metereológico e hidrológico. Esta lista de palavra basea-se no trabalho de \cite{de2021effect}. 
-
-
-Com base na estrutura (Figura \ref{fig:metodologia}), será registrado em único arquivo, na mesma série temporal, o número de tweets filtrados, os valores de precipitação do radar e o pluviomêtro, e se houve alagamentos no dias analisados. Este dados processados em um único arquivo, possibilitarão a submissão nos modelos de aprendizados propostos, dividindo-se em base de dados para teste e treinamento.  
-\begin{figure}[H]
+%--------------------------
+\begin{figure}[htb]
     \centering
-    \includegraphics[width=0.6\textwidth]{imagens/metodologia.pdf}
+    \includegraphics[width=0.8\textwidth]{imagens/metodologia.pdf}
     \caption{Metodologia}
     \label{fig:metodologia}
 \end{figure}
+
+
+A série temporal analisada compreende os três primeiros meses de 2019. Em relação a base de dados de Tweets, o processamento consiste no recorte temporal e filtragem das mensagens com base em uma lista de palavras associadas ao contexto meteorológico e hidrológico. Esta lista de palavra baseia-se no trabalho de \cite{de2021effect}. 
+
+
+Inicialmente, será organizado em único arquivo as informações relativas ao número de Tweets filtrados, os valores de precipitação segundo o radar e o pluviômetro, e se houveram alagamentos no dias analisados. Em um segundo momento, este dados serão submetidos aos métodos SVM, RF e MLP. Nesta fase, serão verificados diferentes subconjuntos de atributos dentre os disponíveis. % os diferentes atributos considerados e
+%
+Será admitida uma divisão inicial desta base, na proporção $\displaystyle \frac{2}{3} \sim \frac{1}{3}$ para fins de treinamento e teste dos modelos. % dividindo-se em base de dados para teste e treinamento.  
+
 %\textcolor{red}{(Ficou bonito heim! Agora faca uns ajustes: dê uma espremida na vertical; aumente um pouco a fonte; use setas com curvas para nao confundir com a borda dos blocos; use uma linha pontilhada para a borda dos blocos; disponbilize este diagrama no repositorio, caso ainda não esteja lá; sempre que puder, use figuras em pdf, pois o documento final fica melhor e menor em termos de megabytes.)}
 
-Como a classificação binária consiste em dias de alagamento e não alagamento, a acurácia será medida a partir da base de dados de teste. Após o treinamento nos modelo SVM e Floresta Aleatória e Redes Neurais, serão analisadas a acurácia através da validação cruzada e subsequentemente testes estatísticos como ANOVA e coeficiente Kappa, determinando-se assim, o algoritmo que possui maior potencial para o desenvolvimento de um sistema de alerta com base nos dados disponíveis. 
+As classificações a serem realizadas compreenderá as classes ``alagamento'' ou ``não-alagamento'', cujo a acurácia será mensurada pela base de testes com uso de medidas como coeficiente kappa, F1-Score e procedimento de validação cruzada.
+Subsequentemente, testes estatísticos sobre a significância dos resultados permitirá indicar o método e os atributos mais relevantes para construção de um sistema de alerta sobre alagamentos. %com base nos dados disponíveis. 
+
+
+%. Após o treinamento nos modelo SVM e Floresta Aleatória e Redes Neurais, serão analisadas a acurácia através da validação cruzada e 
+
+
 
 
 
