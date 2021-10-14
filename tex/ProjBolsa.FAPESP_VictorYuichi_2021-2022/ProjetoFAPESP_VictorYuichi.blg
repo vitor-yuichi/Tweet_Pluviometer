@@ -34,43 +34,43 @@ Warning--opção abnt-url-package passou para url
 +---------------------------------------------------------+
 You've used 37 entries,
             6478 wiz_defined-function locations,
-            1334 strings with 15994 characters,
-and the built_in function-call counts, 29343 in all, are:
-= -- 2081
-> -- 1192
-< -- 61
-+ -- 530
-- -- 343
-* -- 2219
-:= -- 3819
+            1330 strings with 15843 characters,
+and the built_in function-call counts, 29193 in all, are:
+= -- 2046
+> -- 1201
+< -- 59
++ -- 536
+- -- 345
+* -- 2216
+:= -- 3810
 add.period$ -- 90
 call.type$ -- 38
-change.case$ -- 413
-chr.to.int$ -- 90
+change.case$ -- 417
+chr.to.int$ -- 86
 cite$ -- 29
-duplicate$ -- 1509
-empty$ -- 2062
-format.name$ -- 1801
-if$ -- 6949
-int.to.chr$ -- 7
+duplicate$ -- 1502
+empty$ -- 2036
+format.name$ -- 1815
+if$ -- 6905
+int.to.chr$ -- 8
 int.to.str$ -- 3
-missing$ -- 658
-newline$ -- 177
+missing$ -- 657
+newline$ -- 178
 num.names$ -- 145
-pop$ -- 775
+pop$ -- 776
 preamble$ -- 1
-purify$ -- 149
+purify$ -- 150
 quote$ -- 0
-skip$ -- 1711
+skip$ -- 1705
 stack$ -- 1
-substring$ -- 1043
-swap$ -- 704
-text.length$ -- 42
+substring$ -- 1003
+swap$ -- 696
+text.length$ -- 41
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 2
 warning$ -- 3
-while$ -- 223
+while$ -- 222
 width$ -- 0
-write$ -- 473
+write$ -- 471
 (There was 1 error message)

@@ -57,14 +57,6 @@ World Bank, 2019.}
 \textbf{PLoS currents}, Public Library of Science, v.~5, 2013.}
 
 
-\bibitem[Gardner e Dorling 1998]{gardner1998artificial}
-\abntrefinfo{Gardner e Dorling}{GARDNER; DORLING}{1998}
-{GARDNER, M.~W.; DORLING, S. Artificial neural networks (the multilayer
-  perceptron)—a review of applications in the atmospheric sciences.
-\textbf{Atmospheric environment}, Elsevier, v.~32, n. 14-15, p. 2627--2636,
-  1998.}
-
-
 \bibitem[Hansmann 2013]{hansmann2013descriccao}
 \abntrefinfo{Hansmann}{HANSMANN}{2013}
 {HANSMANN, H.~Z. Descri{\c{c}}{\~a}o e caracteriza{\c{c}}{\~a}o das principais
@@ -87,6 +79,19 @@ World Bank, 2019.}
   management in brazil that combines volunteered geographic information with
   wireless sensor networks.
 \textbf{Computers \& Geosciences}, Elsevier, v.~80, p. 84--94, 2015.}
+
+
+\bibitem[Hossaki et al. 2021]{vitorbrasil1}
+\abntrefinfo{Hossaki et al.}{HOSSAKI et al.}{2021a}
+{HOSSAKI, C.; FEITOSA, N. et al. Statistical relations between floods and
+  twitter activity.
+\textbf{GEOINFO}, p.~1--6, oct 2021.}
+
+
+\bibitem[Hossaki et al. 2021]{vitorbrasil}
+\abntrefinfo{Hossaki et al.}{HOSSAKI et al.}{2021b}
+{\underline{\ \ \ \ \ \ \ \ }. A twitter-based meteorological radar.
+\textbf{INIC}, p.~1--6, sep 2021.}
 
 
 \bibitem[Kobiyama et al. 2006]{kobiyama2006prevenccao}
@@ -124,12 +129,6 @@ World Bank, 2019.}
 \abntrefinfo{McKinney}{MCKINNEY}{2012}
 {MCKINNEY, W. \textbf{Python for data analysis: Data wrangling with Pandas,
   NumPy, and IPython}. [S.l.]: " O'Reilly Media, Inc.", 2012.}
-
-
-\bibitem[Mohri et al. 2018]{mohri2018foundations}
-\abntrefinfo{Mohri et al.}{MOHRI et al.}{2018}
-{MOHRI, M.; ROSTAMIZADEH, A.; TALWALKAR, A. \textbf{Foundations of machine
-  learning}. [S.l.]: MIT press, 2018.}
 
 
 \bibitem[Mosavi et al. 2018]{mosavi2018flood}
