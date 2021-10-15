@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Materiais e Métodos}\label{secMatMet}
+\chapter{MATERIAIS E MÉTODOS}\label{secMatMet}
 
 
 %%%%%%%%%%%%%%%%%%
@@ -22,13 +22,14 @@ A série histórica de alagamentos na área de estudo encontra-se disponível por in
 %RGN: essa parte do radar esta um pouco obscura. O que o radar oferece? probabilidade? concentra?ão de agua?
 %A série histórica de alagamentos na área de estudo, foram concebidas por um dos integrantes da pesquisa. Os dados metereológicos foram extraídos por estações pertencentes ao CEMADEN, o equipamento está localizado na cidade de São Roque - SP e atualmente está em operação pelo Departamento de Controle do Espaço Aéreo (DECEA). O equipamento monitora deslocamento, atuação de nuvens e núcleos de instabilidade, mensurando o volume de precipitação em determinado local. Esse radar tem alcance de 250 km, cobrindo toda a região metropolitana de São Paulo. O produto de radar usado para o CAPPI (Constant Altitude Plan Position Indicator) na altura de 3 km. Este produto possui uma resolução espacial de aproximadamente 1 km e uma resolução temporal de 10 minutos. Para a conversão da refletividade (dBZ) em taxa de separação (mm / h) foi utilizado em relação a Marshall-Palmer \cite{marshall1948mc}) e a seguir os dados foram acumulados por dia. 
 
-Os dados advindos do radar meteorológico foram extraídos por uma estação localizada na cidade de São Roque. Este equipamento, pertence ao CEMADEN e atualmente é operado pelo Departamento de Controle do Espaço Aéreo (DECEA), realiza o monitoramento do deslocamento, atuação de nuvens e núcleos de instabilidade, mensurando o volume de precipitação em determinado local. Ainda, este radar tem alcance de \SI{250}{\kilo\meters}, cobrindo toda a região metropolitana de São Paulo. O produto de radar usado é denominado CAPPI (\textit{Constant Altitude Plan Position Indicator}), % na altura de 3 km. 
+Os dados advindos do radar meteorológico foram extraídos por uma estação localizada na cidade de São Roque. Este equipamento, %pertence ao CEMADEN e atualmente 
+mantido pelo Departamento de Controle do Espaço Aéreo (DECEA), realiza o monitoramento do deslocamento, atuação de nuvens e núcleos de instabilidade, mensurando o volume de precipitação em determinado local. Ainda, este radar tem alcance de \SI{250}{\kilo\meters}, cobrindo toda a região metropolitana de São Paulo. O produto de radar usado é denominado CAPPI (\textit{Constant Altitude Plan Position Indicator}), % na altura de 3 km. 
 que possui resolução espacial de aproximadamente \SI{1}{\kilo\meter} e uma resolução temporal de 10 minutos. Para a conversão da refletividade (dBZ) em taxa de separação (mm/h) será utilizada a relação de Marshall-Palmer \cite{marshall1948mc}), e então representados como ``acumulado diário''.
 
 
 
 %%%%%%%%%%%%%%%%%%
-\section{Ferramentas Computacionais}
+\section{Ferramentas computacionais}
 O desenvolvimento do projeto será pautado por programação via linguagem \textit{Python}. A manipulação, filtragem e tratamento dos dados será suportada pelas bibliotecas \textit{Pandas} \cite{vanderplas2016python} e \textit{Numpy} \cite{mckinney2012python}.
 
 Para a aplicação de testes estatísticos, será feito uso da biblioteca \textit{Scipy} \cite{virtanen2020scipy}. De forma semelhante, os métodos de classificação empregados na pesquisa (i.e., SVM, RF e MLP) serão obtidos da biblioteca Scikit-Learn \cite{pedregosa2011scikit}.
