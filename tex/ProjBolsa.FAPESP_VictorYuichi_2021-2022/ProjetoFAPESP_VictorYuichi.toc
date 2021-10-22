@@ -9,11 +9,11 @@
 \contentsline {subsection}{\numberline {4.3.1}SVM}{7}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}RF}{8}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}MLP}{8}{subsection.4.3.3}%
-\contentsline {chapter}{\numberline {5}Materiais e M\'etodos}{8}{chapter.5}%
+\contentsline {chapter}{\numberline {5}MATERIAIS E M\'ETODOS}{8}{chapter.5}%
 \contentsline {section}{\numberline {5.1}\'Area de estudo e dados dispon\IeC {\'\i }veis}{8}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Ferramentas Computacionais}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Ferramentas computacionais}{10}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Proposta de algoritmo para defini\c c\~ao do modelo}{10}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Plano de Atividades e Cronograma}{12}{chapter.6}%
+\contentsline {chapter}{\numberline {6}PLANO DE ATIVIDADES E CRONOGRAMA}{12}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Plano de atividades}{12}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Cronograma}{13}{section.6.2}%
 \contentsline {chapter}{REFER\^ENCIAS BIBLIOGR\'AFICAS}{13}{chapter.7}%

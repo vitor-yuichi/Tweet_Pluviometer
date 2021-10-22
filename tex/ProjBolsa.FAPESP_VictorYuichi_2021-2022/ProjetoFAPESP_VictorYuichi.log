@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.5)  13 OCT 2021 23:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.5)  15 OCT 2021 15:21
 entering extended mode
 **./ProjetoFAPESP_VictorYuichi.tex
 (ProjetoFAPESP_VictorYuichi.tex
@@ -1436,8 +1436,8 @@ Package hyperref Info: Anchor `chapter.5' on input line 2.
 Cap\'{\i }tulo 5.
 Package hyperref Info: bookmark on input line 2:
 (hyperref)             thecounter {5}
-(hyperref)             text {\protect \numberline {\thechapter }Materiais e Mét
-odos}
+(hyperref)             text {\protect \numberline {\thechapter }MATERIAIS E MÉT
+ODOS}
 (hyperref)             reference {chapter.5}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
@@ -1494,7 +1494,7 @@ Package hyperref Info: Anchor `figure.5.1' on input line 14.
 ! Undefined control sequence.
 <argument> \kilo \meters 
                          
-l.25 ...adar tem alcance de \SI{250}{\kilo\meters}
+l.26 ...adar tem alcance de \SI{250}{\kilo\meters}
                                                   , cobrindo toda a região m...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1505,7 +1505,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \kilo \meters 
                          
-l.25 ...adar tem alcance de \SI{250}{\kilo\meters}
+l.26 ...adar tem alcance de \SI{250}{\kilo\meters}
                                                   , cobrindo toda a região m...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1519,7 +1519,7 @@ and I'll forget about whatever was undefined.
 For immediate help type H <return>.
  ...                                              
                                                   
-l.25 ...adar tem alcance de \SI{250}{\kilo\meters}
+l.26 ...adar tem alcance de \SI{250}{\kilo\meters}
                                                   , cobrindo toda a região m...
 
 
@@ -1527,49 +1527,49 @@ Each prefix part must be associated with a unit: a prefix part was found but
 no following unit was given.
 
 
-Package hyperref Info: Reference (cite) `cite.marshall1948mc' on input line 26.
+Package hyperref Info: Reference (cite) `cite.marshall1948mc' on input line 27.
 
-Package hyperref Info: Reference (cite) `cite.marshall1948mc' on input line 26.
+Package hyperref Info: Reference (cite) `cite.marshall1948mc' on input line 27.
 
-Package backref Info: Back cite `marshall1948mc' on input line 26.
+Package backref Info: Back cite `marshall1948mc' on input line 27.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.9' on input line 27.
+Package hyperref Info: Anchor `page.9' on input line 28.
  [9 <./imagens/ic_att2.pdf>]
-Package hyperref Info: Anchor `section.5.2' on input line 31.
-Package hyperref Info: bookmark on input line 31:
+Package hyperref Info: Anchor `section.5.2' on input line 32.
+Package hyperref Info: bookmark on input line 32:
 (hyperref)             thecounter {5.2}
 (hyperref)             text {\ifnum 1>\c@secnumdepth \else \protect \numberline
- {\csname thesection\endcsname }\fi Ferramentas Computacionais}
+ {\csname thesection\endcsname }\fi Ferramentas computacionais}
 (hyperref)             reference {section.5.2}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
 Package hyperref Info: Reference (cite) `cite.vanderplas2016python' on input li
-ne 32.
+ne 33.
 Package hyperref Info: Reference (cite) `cite.vanderplas2016python' on input li
-ne 32.
-Package backref Info: Back cite `vanderplas2016python' on input line 32.
+ne 33.
+Package backref Info: Back cite `vanderplas2016python' on input line 33.
 Package hyperref Info: Reference (cite) `cite.mckinney2012python' on input line
- 32.
+ 33.
 Package hyperref Info: Reference (cite) `cite.mckinney2012python' on input line
- 32.
-Package backref Info: Back cite `mckinney2012python' on input line 32.
+ 33.
+Package backref Info: Back cite `mckinney2012python' on input line 33.
 Package hyperref Info: Reference (cite) `cite.virtanen2020scipy' on input line 
-34.
+35.
 Package hyperref Info: Reference (cite) `cite.virtanen2020scipy' on input line 
-34.
-Package backref Info: Back cite `virtanen2020scipy' on input line 34.
+35.
+Package backref Info: Back cite `virtanen2020scipy' on input line 35.
 Package hyperref Info: Reference (cite) `cite.pedregosa2011scikit' on input lin
-e 34.
+e 35.
 Package hyperref Info: Reference (cite) `cite.pedregosa2011scikit' on input lin
-e 34.
-Package backref Info: Back cite `pedregosa2011scikit' on input line 34.
-Package hyperref Info: Reference (cite) `cite.samela2018gis' on input line 38.
-Package hyperref Info: Reference (cite) `cite.samela2018gis' on input line 38.
-Package backref Info: Back cite `samela2018gis' on input line 38.
-Package hyperref Info: Anchor `section.5.3' on input line 44.
-Package hyperref Info: bookmark on input line 44:
+e 35.
+Package backref Info: Back cite `pedregosa2011scikit' on input line 35.
+Package hyperref Info: Reference (cite) `cite.samela2018gis' on input line 39.
+Package hyperref Info: Reference (cite) `cite.samela2018gis' on input line 39.
+Package backref Info: Back cite `samela2018gis' on input line 39.
+Package hyperref Info: Anchor `section.5.3' on input line 45.
+Package hyperref Info: bookmark on input line 45:
 (hyperref)             thecounter {5.3}
 (hyperref)             text {\ifnum 1>\c@secnumdepth \else \protect \numberline
  {\csname thesection\endcsname }\fi Proposta de algoritmo para definição do mod
@@ -1577,7 +1577,7 @@ elo}
 (hyperref)             reference {section.5.3}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.5.2' on input line 47.
+Package hyperref Info: Reference (link) `figure.5.2' on input line 48.
 
 
 pdfTeX warning: pdflatex.exe (file ./imagens/metodologia.pdf): PDF inclusion: f
@@ -1585,63 +1585,63 @@ ound PDF version <1.7>, but at most version <1.5> allowed
 <imagens/metodologia.pdf, id=274, 512.66531pt x 618.05907pt>
 File: imagens/metodologia.pdf Graphic file (type pdf)
 <use imagens/metodologia.pdf>
-Package pdftex.def Info: imagens/metodologia.pdf  used on input line 55.
+Package pdftex.def Info: imagens/metodologia.pdf  used on input line 56.
 (pdftex.def)             Requested size: 341.43437pt x 411.62656pt.
-Package hyperref Info: bookmark on input line 56:
+Package hyperref Info: bookmark on input line 57:
 (hyperref)             thecounter {5.2}
 (hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
 ame }{\ignorespaces Metodologia}}
 (hyperref)             reference {figure.5.2}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.5.2' on input line 56.
-Package hyperref Info: Reference (cite) `cite.de2021effect' on input line 61.
-Package hyperref Info: Reference (cite) `cite.de2021effect' on input line 61.
-Package backref Info: Back cite `de2021effect' on input line 61.
+Package hyperref Info: Anchor `figure.5.2' on input line 57.
+Package hyperref Info: Reference (cite) `cite.de2021effect' on input line 62.
+Package hyperref Info: Reference (cite) `cite.de2021effect' on input line 62.
+Package backref Info: Back cite `de2021effect' on input line 62.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.10' on input line 67.
+Package hyperref Info: Anchor `page.10' on input line 68.
  [10
-Package `hyperref' Info: End of reference (cite) `cite.marshall1948mc', line 26
+Package `hyperref' Info: End of reference (cite) `cite.marshall1948mc', line 27
 .
-Package `hyperref' Info: End of reference (cite) `cite.marshall1948mc', line 26
+Package `hyperref' Info: End of reference (cite) `cite.marshall1948mc', line 27
 .
 Package `hyperref' Info: End of reference (cite) `cite.vanderplas2016python', l
-ine 32.
+ine 33.
 Package `hyperref' Info: End of reference (cite) `cite.vanderplas2016python', l
-ine 32.
+ine 33.
 Package `hyperref' Info: End of reference (cite) `cite.mckinney2012python', lin
-e 32.
+e 33.
 Package `hyperref' Info: End of reference (cite) `cite.mckinney2012python', lin
-e 32.
+e 33.
 Package `hyperref' Info: End of reference (cite) `cite.virtanen2020scipy', line
- 34.
+ 35.
 Package `hyperref' Info: End of reference (cite) `cite.virtanen2020scipy', line
- 34.
+ 35.
 Package `hyperref' Info: End of reference (cite) `cite.pedregosa2011scikit', li
-ne 34.
+ne 35.
 Package `hyperref' Info: End of reference (cite) `cite.pedregosa2011scikit', li
-ne 34.
-Package `hyperref' Info: End of reference (cite) `cite.samela2018gis', line 38.
+ne 35.
+Package `hyperref' Info: End of reference (cite) `cite.samela2018gis', line 39.
 
-Package `hyperref' Info: End of reference (cite) `cite.samela2018gis', line 38.
+Package `hyperref' Info: End of reference (cite) `cite.samela2018gis', line 39.
 
-Package `hyperref' Info: End of reference (link) `figure.5.2', line 47.
-Package `hyperref' Info: End of reference (cite) `cite.de2021effect', line 61.
-Package `hyperref' Info: End of reference (cite) `cite.de2021effect', line 61.
+Package `hyperref' Info: End of reference (link) `figure.5.2', line 48.
+Package `hyperref' Info: End of reference (cite) `cite.de2021effect', line 62.
+Package `hyperref' Info: End of reference (cite) `cite.de2021effect', line 62.
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.11' on input line 72.
+Package hyperref Info: Anchor `page.11' on input line 73.
  [11 <./imagens/metodologia.pdf>]) (text/planoCrono.tex
 Package hyperref Info: Anchor `chapter.6' on input line 2.
 
 Cap\'{\i }tulo 6.
 Package hyperref Info: bookmark on input line 2:
 (hyperref)             thecounter {6}
-(hyperref)             text {\protect \numberline {\thechapter }Plano de Ativid
-ades e Cronograma}
+(hyperref)             text {\protect \numberline {\thechapter }PLANO DE ATIVID
+ADES E CRONOGRAMA}
 (hyperref)             reference {chapter.6}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
@@ -1877,7 +1877,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `ProjetoFAPESP_VictorYuichi.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 03CC6E2F9185601F427EC94BE98ECE61;3344.
+(rerunfilecheck)             Checksum: 7F3FDAD7FDF397BD53D0CB12223D6473;3344.
 Package rerunfilecheck Info: File `ProjetoFAPESP_VictorYuichi.brf' has not chan
 ged.
 (rerunfilecheck)             Checksum: 4A6AFCE1D68808114D7ED523F6831DB0;1914.
@@ -1909,7 +1909,7 @@ ad/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/xdead
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/xdead/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/xdead/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ProjetoFAPESP_VictorYuichi.pdf (18 pages, 689219 bytes).
+Output written on ProjetoFAPESP_VictorYuichi.pdf (18 pages, 689353 bytes).
 PDF statistics:
  455 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
