@@ -1,18 +1,15 @@
 %%%%%%%%%%%%%%%%%%%CAPA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\serieinpe{INPE-NNNNN-TDI/NNNN} %% não mais usado
 
-%\titulo{CARACTERIZAÇÃO DAS DINÂMICAS TEMPORAIS DO USO E COBERTURA DO SOLO EM ÁREAS DO PANTANAL AFETADAS PELAS QUEIMADAS RECENTESNO ANO DE 2020}
-\titulo{PREVISÃO DE ALAGAMENTOS VIA INTEGRAÇÃO DE TWEETS, DADOS METEREOLÓGICOS E ALGORITMOS DE APRENDIZADO DE MÁQUINA}
-
+\titulo{ANÁLISE SOBRE OS IMPACTOS DA MINERAÇÃO NO VALE DO PARAÍBA COM APOIO DE IMAGENS DE SENSORIAMENTO REMOTO E TÉCNICAS NÃO-SUPERVISIONADAS DE DETECÇÃO DE MUDANÇAS}
 \title{}
-\author{Aluno: Vitor Yuichi Hossaki \\ Orientador: Prof. Dr. 
-Rogério Galante Negri}
+\author{Aluno: Luiz Gustavo Rodrigues Godoy \\ Orientador: Prof. Dr. Rogério Galante Negri}
 \descriccao{Projeto de Bolsa de Iniciação Científica apresentado à FAPESP -- Fundação de Amparo à Pesquisa do Estado de São Paulo.}
 \repositorio{}
 \tipoDaPublicacao{}
 \IBI{}
 
-\date{Dezembro de 2021}
+\date{Dezembro de 2018}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%VERSO DA CAPA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\tituloverso{\vspace{-0.9cm}\textbf{\PublicadoPor:}}

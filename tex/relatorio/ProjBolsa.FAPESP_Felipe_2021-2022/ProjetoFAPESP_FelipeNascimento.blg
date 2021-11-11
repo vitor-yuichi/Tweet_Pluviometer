@@ -1,8 +1,12 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: ProjetoFAPESP_VictorYuichi.aux
+The top-level auxiliary file: ProjetoFAPESP_FelipeNascimento.aux
+White space in argument---line 141 of file ProjetoFAPESP_FelipeNascimento.aux
+ : \citation{statistics
+ :                      solutions_2021}
+I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 13 items.
-Reallocating 'name_of_file' (item size: 1) to 19 items.
+Reallocating 'name_of_file' (item size: 1) to 22 items.
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: abnt-alf.bst
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -14,10 +18,14 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: abnt-options.bib
-Database file #2: ./bib/bibliography.bib
-Repeated entry---line 38 of file ./bib/bibliography.bib
- :   @article{hirata2013mapeamento
- :                                ,
+Database file #2: ./bib/bibNascimento__.bib
+Repeated entry---line 158 of file ./bib/bibNascimento__.bib
+ : @article{zhu2021flood
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 271 of file ./bib/bibNascimento__.bib
+ : @article{de2021effect
+ :                      ,
 I'm skipping whatever remains of this entry
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -32,45 +40,45 @@ Warning--opção abnt-url-package passou para url
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 37 entries,
+You've used 39 entries,
             6478 wiz_defined-function locations,
-            1331 strings with 15887 characters,
-and the built_in function-call counts, 29192 in all, are:
-= -- 2046
-> -- 1201
-< -- 59
-+ -- 536
+            1344 strings with 15859 characters,
+and the built_in function-call counts, 30274 in all, are:
+= -- 2141
+> -- 1193
+< -- 70
++ -- 526
 - -- 345
-* -- 2216
-:= -- 3810
-add.period$ -- 90
-call.type$ -- 38
-change.case$ -- 417
-chr.to.int$ -- 86
-cite$ -- 29
-duplicate$ -- 1502
-empty$ -- 2036
-format.name$ -- 1815
-if$ -- 6905
+* -- 2271
+:= -- 3963
+add.period$ -- 96
+call.type$ -- 40
+change.case$ -- 421
+chr.to.int$ -- 97
+cite$ -- 31
+duplicate$ -- 1591
+empty$ -- 2137
+format.name$ -- 1791
+if$ -- 7162
 int.to.chr$ -- 8
 int.to.str$ -- 3
-missing$ -- 657
-newline$ -- 178
-num.names$ -- 145
-pop$ -- 776
+missing$ -- 681
+newline$ -- 191
+num.names$ -- 155
+pop$ -- 798
 preamble$ -- 1
-purify$ -- 150
+purify$ -- 155
 quote$ -- 0
-skip$ -- 1704
+skip$ -- 1763
 stack$ -- 1
-substring$ -- 1003
-swap$ -- 696
-text.length$ -- 41
+substring$ -- 1102
+swap$ -- 737
+text.length$ -- 49
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 2
 warning$ -- 3
-while$ -- 222
+while$ -- 241
 width$ -- 0
-write$ -- 471
-(There was 1 error message)
+write$ -- 509
+(There were 3 error messages)

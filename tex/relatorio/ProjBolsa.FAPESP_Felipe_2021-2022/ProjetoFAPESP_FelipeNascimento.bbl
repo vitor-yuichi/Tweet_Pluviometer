@@ -94,12 +94,10 @@ World Bank, 2019.}
 \textbf{GEOINFO}, p.~1--6, oct 2021.}
 
 
-\bibitem[Kobiyama et al. 2006]{kobiyama2006prevenccao}
-\abntrefinfo{Kobiyama et al.}{KOBIYAMA et al.}{2006}
-{KOBIYAMA, M.; MENDON{\c{C}}A, M.; MORENO, D.~A.; MARCELINO, I.; MARCELINO,
-  E.~V.; GON{\c{C}}ALVES, E.~F.; BRAZETTI, L.~L.; GOERL, R.~F.; MOLLERI, G.~S.;
-  RUDORFF, F. d.~M. \textbf{Preven{\c{c}}{\~a}o de desastres naturais:
-  conceitos b{\'a}sicos}. [S.l.]: Organic Trading Curitiba, 2006.}
+\bibitem[IJ 2018]{ij2018statistics}
+\abntrefinfo{IJ}{IJ}{2018}
+{IJ, H. Statistics versus machine learning.
+\textbf{Nature methods}, v.~15, n.~4, p.~233, 2018.}
 
 
 \bibitem[Lian e Lu 2006]{lian2006multi}
@@ -203,6 +201,12 @@ Tese (Doutorado) --- Universidade de S{\~a}o Paulo, 2013.}
   Academic Press, 2010.}
 
 
+\bibitem[Tingsanchali 2012]{tingsanchali2012urban}
+\abntrefinfo{Tingsanchali}{TINGSANCHALI}{2012}
+{TINGSANCHALI, T. Urban flood disaster management.
+\textbf{Procedia engineering}, Elsevier, v.~32, p. 25--37, 2012.}
+
+
 \bibitem[VanderPlas 2016]{vanderplas2016python}
 \abntrefinfo{VanderPlas}{VANDERPLAS}{2016}
 {VANDERPLAS, J. \textbf{Python data science handbook: Essential tools for
@@ -216,6 +220,13 @@ Tese (Doutorado) --- Universidade de S{\~a}o Paulo, 2013.}
   Scipy 1.0: fundamental algorithms for scientific computing in python.
 \textbf{Nature methods}, Nature Publishing Group, v.~17, n.~3, p. 261--272,
   2020.}
+
+
+\bibitem[Weihs e Ickstadt 2018]{weihs2018data}
+\abntrefinfo{Weihs e Ickstadt}{WEIHS; ICKSTADT}{2018}
+{WEIHS, C.; ICKSTADT, K. Data science: the impact of statistics.
+\textbf{International Journal of Data Science and Analytics}, Springer, v.~6,
+  n.~3, p. 189--194, 2018.}
 
 
 \bibitem[Zhu e Zhang 2021]{zhu2021flood}
