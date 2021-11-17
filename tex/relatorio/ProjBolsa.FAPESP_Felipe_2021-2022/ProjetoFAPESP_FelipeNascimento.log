@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.5)  11 NOV 2021 17:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.5)  17 NOV 2021 00:26
 entering extended mode
 **./ProjetoFAPESP_FelipeNascimento.tex
 (ProjetoFAPESP_FelipeNascimento.tex
@@ -1535,24 +1535,10 @@ Package hyperref Info: bookmark on input line 28:
 (hyperref)             reference {subsection.3.5.3}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.3.2' on input line 31.
-<figs/metodolog.png, id=263, 683.55376pt x 824.07875pt>
-File: figs/metodolog.png Graphic file (type png)
-<use figs/metodolog.png>
-Package pdftex.def Info: figs/metodolog.png  used on input line 35.
-(pdftex.def)             Requested size: 256.07741pt x 308.72699pt.
-Package hyperref Info: bookmark on input line 36:
-(hyperref)             thecounter {3.2}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces Method}}
-(hyperref)             reference {figure.3.2}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.3.2' on input line 36.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.9' on input line 39.
+Package hyperref Info: Anchor `page.9' on input line 31.
  [9
 Package `hyperref' Info: End of reference (cite) `cite.marshall1948mc', line 20
 .
@@ -1578,7 +1564,17 @@ Package `hyperref' Info: End of reference (cite) `cite.samela2018gis', line 26.
 
 Package `hyperref' Info: End of reference (cite) `cite.samela2018gis', line 26.
 
-Package `hyperref' Info: End of reference (link) `figure.3.2', line 31.
+]
+Package hyperref Info: Reference (cite) `cite.de2021effect' on input line 31.
+Package hyperref Info: Reference (cite) `cite.de2021effect' on input line 31.
+Package backref Info: Back cite `de2021effect' on input line 31.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.10' on input line 38.
+ [10
+Package `hyperref' Info: End of reference (cite) `cite.de2021effect', line 31.
+Package `hyperref' Info: End of reference (cite) `cite.de2021effect', line 31.
 ])
 (docs/matmet.tex
 Package hyperref Info: Anchor `chapter.4' on input line 3.
@@ -1598,9 +1594,11 @@ Package backref Info: Back cite `de2021effect' on input line 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.10' on input line 7.
- [10 <./figs/metodolog.png>]
-<figs/newplot.png, id=283, 1402.23875pt x 526.96875pt>
+Package hyperref Info: Anchor `page.11' on input line 7.
+ [11
+Package `hyperref' Info: End of reference (link) `figure.4.1', line 6.
+]
+<figs/newplot.png, id=286, 1402.23875pt x 526.96875pt>
 File: figs/newplot.png Graphic file (type png)
 <use figs/newplot.png>
 Package pdftex.def Info: figs/newplot.png  used on input line 10.
@@ -1619,16 +1617,6 @@ ame }{\ignorespaces Plot}}
 (hyperref)             type {lof}.
 Package hyperref Info: Anchor `figure.4.1' on input line 11.
 Package hyperref Info: Reference (link) `figure.4.1' on input line 15.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package hyperref Info: Anchor `page.11' on input line 17.
- [11
-Package `hyperref' Info: End of reference (link) `figure.4.1', line 6.
-Package `hyperref' Info: End of reference (cite) `cite.de2021effect', line 6.
-Package `hyperref' Info: End of reference (cite) `cite.de2021effect', line 6.
-Package `hyperref' Info: End of reference (link) `figure.4.1', line 15.
- <./figs/newplot.png>]
 Package hyperref Info: Reference (link) `figure.4.1' on input line 17.
 Package hyperref Info: bookmark on input line 20:
 (hyperref)             thecounter {4.1}
@@ -1638,9 +1626,19 @@ ame }{\ignorespaces P-Values results}}
 (hyperref)             toclevel {0}
 (hyperref)             type {lot}.
 Package hyperref Info: Anchor `table.4.1' on input line 20.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package hyperref Info: Anchor `page.12' on input line 33.
+ [12
+Package `hyperref' Info: End of reference (cite) `cite.de2021effect', line 6.
+Package `hyperref' Info: End of reference (cite) `cite.de2021effect', line 6.
+Package `hyperref' Info: End of reference (link) `figure.4.1', line 15.
+Package `hyperref' Info: End of reference (link) `figure.4.1', line 17.
+ <./figs/newplot.png>]
 Package hyperref Info: Reference (link) `figure.4.1' on input line 34.
 Package hyperref Info: Reference (link) `figure.4.2' on input line 34.
-<figs/corr.png, id=294, 564.1075pt x 583.17876pt>
+<figs/corr.png, id=297, 564.1075pt x 583.17876pt>
 File: figs/corr.png Graphic file (type png)
 <use figs/corr.png>
 Package pdftex.def Info: figs/corr.png  used on input line 38.
@@ -1655,19 +1653,18 @@ ame }{\ignorespaces Spearman Correlation}}
 Package hyperref Info: Anchor `figure.4.2' on input line 39.
 
 
-LaTeX Warning: Citation `statistics_solutions_2021' on page 12 undefined on inp
+LaTeX Warning: Citation `statistics_solutions_2021' on page 13 undefined on inp
 ut line 43.
 
 Package backref Info: Back cite `statistics_solutions_2021' on input line 43.
-
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Info: Anchor `page.12' on input line 44.
- [12
-Package `hyperref' Info: End of reference (link) `figure.4.1', line 17.
+Package hyperref Info: Anchor `page.13' on input line 73.
+ [13
 Package `hyperref' Info: End of reference (link) `figure.4.1', line 34.
 Package `hyperref' Info: End of reference (link) `figure.4.2', line 34.
- <./figs/corr.png>]) (docs/cronograma.tex
+ <./figs/corr.png>] (docs/cronograma.tex
 Package hyperref Info: Anchor `chapter.5' on input line 1.
 
 Cap\'{\i }tulo 5.
@@ -1694,13 +1691,8 @@ Package hyperref Info: Reference (link) `page.2' on input line 15.
 Package hyperref Info: Reference (link) `page.5' on input line 15.
 Package hyperref Info: Anchor `cite.de2021effect' on input line 25.
 Package hyperref Info: Reference (link) `page.5' on input line 25.
+Package hyperref Info: Reference (link) `page.10' on input line 25.
 Package hyperref Info: Reference (link) `page.11' on input line 25.
-Package hyperref Info: Anchor `page.13' on input line 25.
-
-[13
-Package `hyperref' Info: End of reference (link) `page.2', line 15.
-Package `hyperref' Info: End of reference (link) `page.5', line 15.
-]
 Package hyperref Info: Anchor `cite.marshall1948mc' on input line 31.
 
 
@@ -1756,6 +1748,14 @@ You need to provide a definition with \DeclareInputText
 or \DeclareInputMath before using this key.
 
 Package hyperref Info: Reference (link) `page.9' on input line 31.
+Package hyperref Info: Anchor `page.14' on input line 31.
+[14
+Package `hyperref' Info: End of reference (link) `page.2', line 15.
+Package `hyperref' Info: End of reference (link) `page.5', line 15.
+Package `hyperref' Info: End of reference (link) `page.5', line 25.
+Package `hyperref' Info: End of reference (link) `page.10', line 25.
+Package `hyperref' Info: End of reference (link) `page.11', line 25.
+]
 Package hyperref Info: Anchor `cite.braga2016alagamentos' on input line 38.
 Package hyperref Info: Reference (link) `page.4' on input line 38.
 Package hyperref Info: Anchor `cite.breiman2001random' on input line 44.
@@ -1771,10 +1771,12 @@ Package hyperref Info: Reference (link) `page.2' on input line 73.
 Package hyperref Info: Anchor `cite.horita2015development' on input line 82.
 Package hyperref Info: Reference (link) `page.2' on input line 82.
 Package hyperref Info: Reference (link) `page.5' on input line 82.
-Package hyperref Info: Anchor `page.14' on input line 82.
-[14
-Package `hyperref' Info: End of reference (link) `page.5', line 25.
-Package `hyperref' Info: End of reference (link) `page.11', line 25.
+Package hyperref Info: Anchor `cite.vitorbrasil' on input line 88.
+Package hyperref Info: Reference (link) `page.5' on input line 88.
+Package hyperref Info: Anchor `cite.vitorbrasil1' on input line 95.
+Package hyperref Info: Reference (link) `page.2' on input line 95.
+Package hyperref Info: Anchor `page.15' on input line 95.
+ [15
 Package `hyperref' Info: End of reference (link) `page.9', line 31.
 Package `hyperref' Info: End of reference (link) `page.4', line 38.
 Package `hyperref' Info: End of reference (link) `page.7', line 44.
@@ -1782,11 +1784,10 @@ Package `hyperref' Info: End of reference (link) `page.5', line 51.
 Package `hyperref' Info: End of reference (link) `page.4', line 58.
 Package `hyperref' Info: End of reference (link) `page.4', line 65.
 Package `hyperref' Info: End of reference (link) `page.2', line 73.
+Package `hyperref' Info: End of reference (link) `page.2', line 82.
+Package `hyperref' Info: End of reference (link) `page.5', line 82.
+Package `hyperref' Info: End of reference (link) `page.5', line 88.
 ]
-Package hyperref Info: Anchor `cite.vitorbrasil' on input line 88.
-Package hyperref Info: Reference (link) `page.5' on input line 88.
-Package hyperref Info: Anchor `cite.vitorbrasil1' on input line 95.
-Package hyperref Info: Reference (link) `page.2' on input line 95.
 Package hyperref Info: Anchor `cite.ij2018statistics' on input line 101.
 Package hyperref Info: Reference (link) `page.8' on input line 101.
 Package hyperref Info: Anchor `cite.lian2006multi' on input line 108.
@@ -1801,11 +1802,10 @@ Package hyperref Info: Anchor `cite.mosavi2018flood' on input line 138.
 Package hyperref Info: Reference (link) `page.3' on input line 138.
 Package hyperref Info: Anchor `cite.naaman2011geographic' on input line 145.
 Package hyperref Info: Reference (link) `page.4' on input line 145.
-Package hyperref Info: Anchor `page.15' on input line 145.
- [15
-Package `hyperref' Info: End of reference (link) `page.2', line 82.
-Package `hyperref' Info: End of reference (link) `page.5', line 82.
-Package `hyperref' Info: End of reference (link) `page.5', line 88.
+Package hyperref Info: Anchor `cite.pedregosa2011scikit' on input line 154.
+Package hyperref Info: Reference (link) `page.9' on input line 154.
+Package hyperref Info: Anchor `page.16' on input line 161.
+ [16
 Package `hyperref' Info: End of reference (link) `page.2', line 95.
 Package `hyperref' Info: End of reference (link) `page.8', line 101.
 Package `hyperref' Info: End of reference (link) `page.6', line 108.
@@ -1813,9 +1813,8 @@ Package `hyperref' Info: End of reference (link) `page.6', line 116.
 Package `hyperref' Info: End of reference (link) `page.6', line 124.
 Package `hyperref' Info: End of reference (link) `page.9', line 130.
 Package `hyperref' Info: End of reference (link) `page.3', line 138.
+Package `hyperref' Info: End of reference (link) `page.4', line 145.
 ]
-Package hyperref Info: Anchor `cite.pedregosa2011scikit' on input line 154.
-Package hyperref Info: Reference (link) `page.9' on input line 154.
 Package hyperref Info: Anchor `cite.pacheco2020mapeamento' on input line 161.
 Package hyperref Info: Reference (link) `page.7' on input line 161.
 Package hyperref Info: Anchor `cite.samela2018gis' on input line 169.
@@ -1831,9 +1830,10 @@ Package hyperref Info: Anchor `cite.theodoridis2010introduction' on input line
 Package hyperref Info: Reference (link) `page.6' on input line 202.
 Package hyperref Info: Anchor `cite.tingsanchali2012urban' on input line 208.
 Package hyperref Info: Reference (link) `page.2' on input line 208.
-Package hyperref Info: Anchor `page.16' on input line 208.
- [16
-Package `hyperref' Info: End of reference (link) `page.4', line 145.
+Package hyperref Info: Anchor `cite.vanderplas2016python' on input line 214.
+Package hyperref Info: Reference (link) `page.9' on input line 214.
+Package hyperref Info: Anchor `page.17' on input line 223.
+ [17
 Package `hyperref' Info: End of reference (link) `page.9', line 154.
 Package `hyperref' Info: End of reference (link) `page.7', line 161.
 Package `hyperref' Info: End of reference (link) `page.9', line 169.
@@ -1841,9 +1841,8 @@ Package `hyperref' Info: End of reference (link) `page.2', line 177.
 Package `hyperref' Info: End of reference (link) `page.7', line 187.
 Package `hyperref' Info: End of reference (link) `page.2', line 195.
 Package `hyperref' Info: End of reference (link) `page.6', line 202.
+Package `hyperref' Info: End of reference (link) `page.2', line 208.
 ]
-Package hyperref Info: Anchor `cite.vanderplas2016python' on input line 214.
-Package hyperref Info: Reference (link) `page.9' on input line 214.
 Package hyperref Info: Anchor `cite.virtanen2020scipy' on input line 223.
 Package hyperref Info: Reference (link) `page.9' on input line 223.
 Package hyperref Info: Anchor `cite.weihs2018data' on input line 230.
@@ -1853,9 +1852,8 @@ Package hyperref Info: Reference (link) `page.6' on input line 237.
 )
 No file ProjetoFAPESP_FelipeNascimento.ind.
 AED: lastpage setting LastPage 
-Package hyperref Info: Anchor `page.17' on input line 82.
-[17
-Package `hyperref' Info: End of reference (link) `page.2', line 208.
+Package hyperref Info: Anchor `page.18' on input line 82.
+[18
 Package `hyperref' Info: End of reference (link) `page.9', line 214.
 Package `hyperref' Info: End of reference (link) `page.9', line 223.
 Package `hyperref' Info: End of reference (link) `page.7', line 230.
@@ -1870,15 +1868,21 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package rerunfilecheck Info: File `ProjetoFAPESP_FelipeNascimento.out' has not 
 changed.
 (rerunfilecheck)             Checksum: BAE4D5D8F4EC4876F7D54C0697ACE895;2645.
-Package rerunfilecheck Info: File `ProjetoFAPESP_FelipeNascimento.brf' has not 
-changed.
-(rerunfilecheck)             Checksum: 2BA944948E659ED46688EDA8A9EF20F3;2107.
+
+Package rerunfilecheck Warning: File `ProjetoFAPESP_FelipeNascimento.brf' has c
+hanged.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `ProjetoFAPESP_FelipeNascimento.brf'
+:
+(rerunfilecheck)             Before: 16B07B6577143855D78C280151E35965;2163
+(rerunfilecheck)             After:  F104EB5441354BA2542C035A1DB3644A;2163.
  ) 
 Here is how much of TeX's memory you used:
- 18846 strings out of 478927
- 343111 string characters out of 2852535
- 646525 words of memory out of 3000000
- 36218 multiletter control sequences out of 15000+600000
+ 18838 strings out of 478927
+ 342939 string characters out of 2852535
+ 646492 words of memory out of 3000000
+ 36211 multiletter control sequences out of 15000+600000
  456264 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,14n,108p,942b,918s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1900,9 +1904,9 @@ ead/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/xd
 ead/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/xde
 ad/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
-Output written on ProjetoFAPESP_FelipeNascimento.pdf (18 pages, 695934 bytes).
+Output written on ProjetoFAPESP_FelipeNascimento.pdf (19 pages, 642188 bytes).
 PDF statistics:
- 436 PDF objects out of 1000 (max. 8388607)
+ 440 PDF objects out of 1000 (max. 8388607)
  79 named destinations out of 1000 (max. 500000)
- 184 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -26,18 +26,36 @@ For the application of statistical tests, the \textit{Scipy} \cite{virtanen2020s
 Finally, necessary database operations will be performed with the support of the Geographic Information System \textit{QGIS} \cite{samela2018gis}.
 
 \subsection{Method}
+Firstly, all geolocated tweets from January to February 2019 within a radius of 2000 meters were extracted through API. The centroid of this ray is located in pluviometer 833A in São Paulo and the coordinates of this place can be found on the website of the institution CEMADEN. The data extracted through the Twitter API, uses the UTC format to inform the day and time of posts. Therefore, in the pre-processing of the tweets data, the date-time was converted from UTC for the América/São Paulo region. Also, to facilitate visualization and optimize the data, some unnecessary columns were removed. Finally, the date was delimited for the analyzed time window.
 
-The initial design of this research proposal consists in the use of time series of floods, Tweets, data recorded by rain gauge and meteorological radar, in order to build a method for forecasting flood events.
-An overview of the proposal is illustrated in Figure~\ref{fig:metodologia}.
+To filter the posts for the context of flooding and rain, the words 'chuva', 'chove', 'chuvoso' and 'chuvosa' were used. These terms, according to \cite{de2021effect}, are less temporally and spatially volatile and are commonly used in the city of São Paulo to refer to the phenomena of rain and flooding. Any tweets that contain one of the above words are selected and counted for the day the post was sent by the user. Then, these posts are aggregated for each of the days of the analyzed time frame. 
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.6\textwidth]{figs/metodolog.png}
-	\caption{Method}
-	\label{fig:metodologia}
-\end{figure}
+Data from the 833A pluviometer were extracted from the website of the CEMADEN institution. The files containing the equipment information are found separated by month and measurements of all other rain gauges. In the primary treatment of the data, the files were concatenated and unified in a single DataFrame file, later only the measurements of the 833A rain gauge were filtered. This equipment, in times of absence of rain, records the information once in an hour, otherwise, in the detection of precipitation it starts measuring the rain every 10 minutes. Therefore, to analyze the rainfall data, the accumulated rainfall was calculated every 10 minutes for each day.
 
-Initially, information on the number of filtered Tweets, precipitation values according to radar and rain gauge, and whether there was flooding in the analyzed days will be organized in a single file. In a second moment, this data will be submitted to the SVM, RF and MLP methods. In this phase, different subsets of attributes will be verified among the available ones. An initial division of this base will be admitted, in the proportion $\displaystyle \frac{2}{3} \sim \frac{1}{3}$ for the purposes of training and testing the models. 
-The classifications to be carried out will comprise the classes ``flooding'' or ``non-flooding'', whose accuracy will be measured by the basis of tests using measures such as kappa coefficient, F1-Score and cross validation procedure.
+Radar data measurements are already processed and the information is found with the daily rainfall accumulation in a given cell. These cells comprise each of the rain gauge points. Therefore, values were extracted only from the point coinciding with the 833A pluviometer.
 
-Subsequently, statistical tests on the significance of the results will indicate the most relevant method and attributes for building a flood warning system. 
+The flooding data was thoroughly reviewed by a member of the CEMADEN team. This information comes from meteorological and hydrological monitoring institutions. The outbreak of a flood is recorded from the moment there is an obstruction of a road due to accumulation of water and precipitation. Data are primarily found records of flooding throughout the entire Tamanduateí Basin and for the entire year of 2019. The day, time, duration, street name, latitude, longitude, start and end time of the flood are recorded in the file.
+
+For the processing of the flooding data, geoprocessing tools in QGIS were used. First, a circumference of radius \SI{2000} {\meter} around the 833A rain gauge was created using the Buffer algorithm. Soon after, through the intersection algorithm between layers, only the floods belonging to the circle created by the Buffer were selected. The data were then delimited for the time window analyzed and the occurrences of flooding per day were counted.
+
+With the processed data in hand, each of the attributes was integrated into a single DataFrame through the Merge function. In this table, all attributes are organized by the index that corresponds to the date, and each of the corresponding columns accumulated rainfall in the pluviometer and radar, frequency of tweets and number of occurrences of flooding.
+
+To explore the data and verify the relationships between the attributes, the data were plotted as a function of the time window in a single graph. less frequent flooding. For more accurate inferences, Pearson and Spearman correlations were calculated. In selecting the appropriate correlation algorithm, the Shapiro Wilk test was used to determine whether the attributes followed a normal distribution, that is, parametric or non-parametric.
+
+
+
+
+%The initial design of this research proposal consists in the use of time series of floods, Tweets, data recorded by rain gauge and meteorological radar, in order to build a method for forecasting flood events.
+%An overview of the proposal is illustrated in Figure~\ref{fig:metodologia}.
+
+%\begin{figure}[H]
+%	\centering
+	%\includegraphics[width=0.6\textwidth]{figs/metodolog.png}
+	%\caption{Method}
+	%\label{fig:metodologia}
+%\end{figure}
+
+%Initially, information on the number of filtered Tweets, precipitation values according to radar and rain gauge, and whether there was flooding in the analyzed days will be organized in a single file. In a second moment, this data will be submitted to the SVM, RF and MLP methods. In this phase, different subsets of attributes will be verified among the available ones. An initial division of this base will be admitted, in the proportion $\displaystyle \frac{2}{3} \sim \frac{1}{3}$ for the purposes of training and testing the models. 
+%The classifications to be carried out will comprise the classes ``flooding'' or ``non-flooding'', whose accuracy will be measured by the basis of tests using measures such as kappa coefficient, F1-Score and cross validation procedure.
+
+%Subsequently, statistical tests on the significance of the results will indicate the most relevant method and attributes for building a flood warning system. 
