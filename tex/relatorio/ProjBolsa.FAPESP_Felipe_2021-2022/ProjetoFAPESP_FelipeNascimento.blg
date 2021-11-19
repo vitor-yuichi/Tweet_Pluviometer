@@ -1,10 +1,6 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: ProjetoFAPESP_FelipeNascimento.aux
-White space in argument---line 141 of file ProjetoFAPESP_FelipeNascimento.aux
- : \citation{statistics
- :                      solutions_2021}
-I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 Reallocating 'name_of_file' (item size: 1) to 9 items.
@@ -40,45 +36,45 @@ Warning--opção abnt-url-package passou para url
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 39 entries,
+You've used 40 entries,
             6478 wiz_defined-function locations,
-            1344 strings with 15859 characters,
-and the built_in function-call counts, 30274 in all, are:
-= -- 2141
+            1349 strings with 16069 characters,
+and the built_in function-call counts, 31277 in all, are:
+= -- 2310
 > -- 1193
 < -- 70
-+ -- 526
++ -- 550
 - -- 345
-* -- 2271
-:= -- 3963
-add.period$ -- 96
-call.type$ -- 40
-change.case$ -- 421
-chr.to.int$ -- 97
-cite$ -- 31
-duplicate$ -- 1591
-empty$ -- 2137
+* -- 2317
+:= -- 4081
+add.period$ -- 99
+call.type$ -- 41
+change.case$ -- 426
+chr.to.int$ -- 98
+cite$ -- 32
+duplicate$ -- 1616
+empty$ -- 2198
 format.name$ -- 1791
-if$ -- 7162
+if$ -- 7451
 int.to.chr$ -- 8
 int.to.str$ -- 3
-missing$ -- 681
-newline$ -- 191
+missing$ -- 695
+newline$ -- 197
 num.names$ -- 155
-pop$ -- 798
+pop$ -- 819
 preamble$ -- 1
-purify$ -- 155
+purify$ -- 158
 quote$ -- 0
-skip$ -- 1763
+skip$ -- 1912
 stack$ -- 1
-substring$ -- 1102
-swap$ -- 737
+substring$ -- 1137
+swap$ -- 742
 text.length$ -- 49
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 14
 warning$ -- 3
-while$ -- 241
+while$ -- 243
 width$ -- 0
-write$ -- 509
-(There were 3 error messages)
+write$ -- 522
+(There were 2 error messages)

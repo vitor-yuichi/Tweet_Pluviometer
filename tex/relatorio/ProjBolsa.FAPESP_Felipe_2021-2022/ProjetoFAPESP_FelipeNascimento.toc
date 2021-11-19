@@ -15,5 +15,5 @@
 \contentsline {subsection}{\numberline {3.5.3}Method}{9}{subsection.3.5.3}%
 \contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{11}{chapter.4}%
 \contentsline {chapter}{\numberline {5}CONCLUSION AND PERSPECTIVES}{14}{chapter.5}%
-\contentsline {chapter}{REFER\^ENCIAS BIBLIOGR\'AFICAS}{14}{chapter.6}%
+\contentsline {chapter}{REFER\^ENCIAS BIBLIOGR\'AFICAS}{15}{chapter.6}%
 \contentsfinish 
