@@ -37,25 +37,12 @@
 2016.}
 
 
-\bibitem[Breiman 2001]{breiman2001random}
-\abntrefinfo{Breiman}{BREIMAN}{2001}
-{BREIMAN, L. Random forests.
-\textbf{Machine learning}, Springer, v.~45, n.~1, p. 5--32, 2001.}
-
-
 \bibitem[Correlation (Pearson, Kendall, Spearman)
   2021]{statistics_solutions_2021}
 \abntrefinfo{Correlation\ldots}{CORRELATION\ldots}{2021}
 {CORRELATION (Pearson, Kendall, Spearman). Aug 2021.
 Dispon{\'\i}vel em:
   <\url{https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/correlation-pearson-kendall-spearman/}>.}
-
-
-\bibitem[Deparday et al. 2019]{deparday2019machine}
-\abntrefinfo{Deparday et al.}{DEPARDAY et al.}{2019}
-{DEPARDAY, V.; GEVAERT, C.~M.; MOLINARIO, G.; SODEN, R.; BALOG-WAY, S. Machine
-  learning for disaster risk management.
-World Bank, 2019.}
 
 
 \bibitem[Doocy et al. 2013]{doocy2013human}
@@ -89,46 +76,24 @@ World Bank, 2019.}
 \textbf{Computers \& Geosciences}, Elsevier, v.~80, p. 84--94, 2015.}
 
 
-\bibitem[Hossaki et al. 2021]{vitorbrasil}
-\abntrefinfo{Hossaki et al.}{HOSSAKI et al.}{2021a}
-{HOSSAKI, C.; FEITOSA, N. et al. A twitter-based meteorological radar.
-\textbf{INIC}, p.~1--6, sep 2021.}
-
-
 \bibitem[Hossaki et al. 2021]{vitorbrasil1}
-\abntrefinfo{Hossaki et al.}{HOSSAKI et al.}{2021b}
+\abntrefinfo{Hossaki et al.}{HOSSAKI et al.}{2021}
 {HOSSAKI, C.; FREITAS, N. et al. Statistical relations between floods and
   twitter activity.
 \textbf{GEOINFO}, p.~1--6, oct 2021.}
 
 
-\bibitem[IJ 2018]{ij2018statistics}
-\abntrefinfo{IJ}{IJ}{2018}
-{IJ, H. Statistics versus machine learning.
-\textbf{Nature methods}, v.~15, n.~4, p.~233, 2018.}
+\bibitem[Larson et al. 2004]{larson2004estatistica}
+\abntrefinfo{Larson et al.}{LARSON et al.}{2004}
+{LARSON, R.; FARBER, B.; PATARRA, C. traduc{\~a}o~t{\'e}cnica.
+  \textbf{Estat{\'\i}stica aplicada}. [S.l.]: Prentice Hall, 2004.}
 
 
-\bibitem[Lian e Lu 2006]{lian2006multi}
-\abntrefinfo{Lian e Lu}{LIAN; LU}{2006}
-{LIAN, H.-C.; LU, B.-L. Multi-view gender classification using local binary
-  patterns and support vector machines. In:  SPRINGER. \textbf{International
-  Symposium on Neural Networks}. [S.l.], 2006. p. 202--209.}
-
-
-\bibitem[Liu et al. 2020]{liu2020random}
-\abntrefinfo{Liu et al.}{LIU et al.}{2020}
-{LIU, D.; FAN, Z.; FU, Q.; LI, M.; FAIZ, M.~A.; ALI, S.; LI, T.; ZHANG, L.;
-  KHAN, M.~I. Random forest regression evaluation model of regional flood
-  disaster resilience based on the whale optimization algorithm.
-\textbf{Journal of Cleaner Production}, Elsevier, v.~250, p. 119468, 2020.}
-
-
-\bibitem[Maselli e Negri 2019]{maselli2019integraccao}
-\abntrefinfo{Maselli e Negri}{MASELLI; NEGRI}{2019}
-{MASELLI, L.~Z.; NEGRI, R.~G. Integra{\c{c}}{\~a}o entre estrat{\'e}gias
-  multiclasses e diferentes fun{\c{c}}{\~o}es kernel em m{\'a}quinas de vetores
-  suporte para classifica{\c{c}}{\~a}o de imagens de sensoriamento remoto.
-\textbf{Revista Brasileira de Cartografia}, v.~71, n.~1, p. 149--175, 2019.}
+\bibitem[MacFarland e Yates 2016]{macfarland2016mann}
+\abntrefinfo{MacFarland e Yates}{MACFARLAND; YATES}{2016}
+{MACFARLAND, T.~W.; YATES, J.~M. Mann--whitney u test. In:
+  \textbf{Introduction to nonparametric statistics for the biological sciences
+  using R}. [S.l.: s.n.], 2016. p. 103--132.}
 
 
 \bibitem[McKinney 2012]{mckinney2012python}
@@ -137,35 +102,11 @@ World Bank, 2019.}
   NumPy, and IPython}. [S.l.]: " O'Reilly Media, Inc.", 2012.}
 
 
-\bibitem[Mosavi et al. 2018]{mosavi2018flood}
-\abntrefinfo{Mosavi et al.}{MOSAVI et al.}{2018}
-{MOSAVI, A.; OZTURK, P.; CHAU, K.-w. Flood prediction using machine learning
-  models: Literature review.
-\textbf{Water}, Multidisciplinary Digital Publishing Institute, v.~10, n.~11,
-  p.~1536, 2018.}
-
-
-\bibitem[Naaman 2011]{naaman2011geographic}
-\abntrefinfo{Naaman}{NAAMAN}{2011}
-{NAAMAN, M. Geographic information from georeferenced social media data.
-\textbf{SIGSPATIAL Special}, ACM New York, NY, USA, v.~3, n.~2, p. 54--61,
-  2011.}
-
-
-\bibitem[Pedregosa et al. 2011]{pedregosa2011scikit}
-\abntrefinfo{Pedregosa et al.}{PEDREGOSA et al.}{2011}
-{PEDREGOSA, F.; VAROQUAUX, G.; GRAMFORT, A.; MICHEL, V.; THIRION, B.; GRISEL,
-  O.; BLONDEL, M.; PRETTENHOFER, P.; WEISS, R.; DUBOURG, V. et al.
-  Scikit-learn: Machine learning in python.
-\textbf{the Journal of machine Learning research}, JMLR. org, v.~12, p.
-  2825--2830, 2011.}
-
-
-\bibitem[Quevedo et al. 2020]{pacheco2020mapeamento}
-\abntrefinfo{Quevedo et al.}{QUEVEDO et al.}{2020}
-{QUEVEDO, R. P.; OLIVEIRA, G. Garcia~de; GUASSELLI, L. A. Mapeamento de
-  suscetibilidade a movimentos de massa a partir de redes neurais artificiais.
-\textbf{Anuario do Instituto de Geociencias}, v.~43, n.~2, 2020.}
+\bibitem[Perme e Manevski 2019]{perme2019confidence}
+\abntrefinfo{Perme e Manevski}{PERME; MANEVSKI}{2019}
+{PERME, M.~P.; MANEVSKI, D. Confidence intervals for the mann--whitney test.
+\textbf{Statistical methods in medical research}, SAGE Publications Sage UK:
+  London, England, v.~28, n.~12, p. 3755--3768, 2019.}
 
 
 \bibitem[Samela et al. 2018]{samela2018gis}
@@ -182,31 +123,6 @@ World Bank, 2019.}
 \textbf{Impactos econ{\^o}micos de desastres naturais em megacidades: o caso
   dos alagamentos em S{\~a}o Paulo}.
 Tese (Doutorado) --- Universidade de S{\~a}o Paulo, 2013.}
-
-
-\bibitem[Silva et al. 2016]{da2016utilizaccao}
-\abntrefinfo{Silva et al.}{SILVA et al.}{2016}
-{SILVA, M.~R. da; SANTOS, L. B.~L.; SCOFIELD, G.~B.; CORTIVO, F.~D.
-  Utiliza{\c{c}}{\~a}o de redes neurais artificiais em alertas
-  hidrol{\'o}gicos: Estudo de caso na bacia do rio claro em caraguatatuba,
-  estado de s{\~a}o paulo.
-\textbf{Anu{\'a}rio do Instituto de Geoci{\^e}ncias}, v.~39, n.~1, p. 23--31,
-  2016.}
-
-
-\bibitem[Sit et al. 2019]{sit2019identifying}
-\abntrefinfo{Sit et al.}{SIT et al.}{2019}
-{SIT, M.~A.; KOYLU, C.; DEMIR, I. Identifying disaster-related tweets and their
-  semantic, spatial and temporal context using deep learning, natural language
-  processing and spatial analysis: a case study of hurricane irma.
-\textbf{International Journal of Digital Earth}, Taylor \& Francis, 2019.}
-
-
-\bibitem[Theodoridis et al. 2010]{theodoridis2010introduction}
-\abntrefinfo{Theodoridis et al.}{THEODORIDIS et al.}{2010}
-{THEODORIDIS, S.; PIKRAKIS, A.; KOUTROUMBAS, K.; CAVOURAS, D.
-  \textbf{Introduction to pattern recognition: a matlab approach}. [S.l.]:
-  Academic Press, 2010.}
 
 
 \bibitem[Tingsanchali 2012]{tingsanchali2012urban}
@@ -235,13 +151,6 @@ Tese (Doutorado) --- Universidade de S{\~a}o Paulo, 2013.}
 {WEIHS, C.; ICKSTADT, K. Data science: the impact of statistics.
 \textbf{International Journal of Data Science and Analytics}, Springer, v.~6,
   n.~3, p. 189--194, 2018.}
-
-
-\bibitem[Zhu e Zhang 2021]{zhu2021flood}
-\abntrefinfo{Zhu e Zhang}{ZHU; ZHANG}{2021}
-{ZHU, Z.; ZHANG, Y. Flood disaster risk assessment based on random forest
-  algorithm.
-\textbf{Neural Computing and Applications}, Springer, p. 1--13, 2021.}
 
 
 \end{thebibliography}

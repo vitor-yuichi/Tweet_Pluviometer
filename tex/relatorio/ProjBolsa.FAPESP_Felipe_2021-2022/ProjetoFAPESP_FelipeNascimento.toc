@@ -1,19 +1,20 @@
 \babel@toc {portuguese}{}\relax 
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}OBJECTIVES}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {2}OBJECTIVES}{2}{chapter.2}%
 \contentsline {chapter}{\numberline {3}THEORY FUNDAMENTALS}{3}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Floods}{4}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Social media for flood monitoring}{4}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Classification}{5}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}SVM}{6}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}RF}{6}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}MLP}{7}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Statistics}{7}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Materials and method}{8}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Study Area}{8}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Data and tools}{8}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Method}{9}{subsection.3.5.3}%
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{11}{chapter.4}%
-\contentsline {chapter}{\numberline {5}CONCLUSION AND PERSPECTIVES}{14}{chapter.5}%
-\contentsline {chapter}{REFER\^ENCIAS BIBLIOGR\'AFICAS}{15}{chapter.6}%
+\contentsline {section}{\numberline {3.1}Floods}{3}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Statistics}{4}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Correlation}{4}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Normality test}{5}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Mann Whitney Test}{5}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Materials and method}{6}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Study Area}{6}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Data and tools}{6}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Method in the first project}{7}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Method in the second project}{9}{subsection.3.6.4}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Results in the first project }{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Preliminary Results in the second project}{13}{section.4.2}%
+\contentsline {chapter}{\numberline {5}CONCLUSION AND PERSPECTIVES}{16}{chapter.5}%
+\contentsline {chapter}{REFER\^ENCIAS BIBLIOGR\'AFICAS}{16}{chapter.6}%
 \contentsfinish 

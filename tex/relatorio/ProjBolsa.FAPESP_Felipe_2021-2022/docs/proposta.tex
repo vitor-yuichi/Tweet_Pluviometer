@@ -7,7 +7,7 @@ This basin has an area of $\SI{323}{\kilo \meter ^2}$ and extends to the hydrogr
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{figs/ic_att2.png}
+	\includegraphics[scale=0.2]{figs/layout33.png}
 	\caption{Study Area}
 	\label{fig:area_estudo}
 \end{figure}
@@ -21,14 +21,53 @@ maintained by the Department of Airspace Control (DECEA), it monitors displaceme
 
 The development of the project will be guided by programming via the \textit{Python} language. The manipulation, filtering and processing of data will be supported by the \textit{Pandas} \cite{vanderplas2016python} and \textit{Numpy} \cite{mckinney2012python} libraries.
 
-For the application of statistical tests, the \textit{Scipy} \cite{virtanen2020scipy} library will be used. Similarly, the classification methods used in the research (i.e., SVM, RF and MLP) will be obtained from the Scikit-Learn library \cite{pedregosa2011scikit}.
+For the application of statistical tests, the \textit{Scipy} \cite{virtanen2020scipy} library will be used. Finally, necessary database operations will be performed with the support of the Geographic Information System \textit{QGIS} \cite{samela2018gis}
+%Similarly, the classification methods used in the research (i.e., SVM, RF and MLP) will be obtained from the Scikit-Learn library \cite{pedregosa2011scikit}.
 
-Finally, necessary database operations will be performed with the support of the Geographic Information System \textit{QGIS} \cite{samela2018gis}.
 
-\subsection{Method}\labe{methodd}
-Firstly, all geolocated tweets from January to February 2019 within a radius of 2000 meters were extracted through API. The centroid of this ray is located in pluviometer 833A in São Paulo and the coordinates of this place can be found on the website of the institution CEMADEN. The data extracted through the Twitter API, uses the UTC format to inform the day and time of posts. Therefore, in the pre-processing of the tweets data, the date-time was converted from UTC for the América/São Paulo region. Also, to facilitate visualization and optimize the data, some unnecessary columns were removed. Finally, the date was delimited for the analyzed time window.
 
-To filter the posts for the context of flooding and rain, the words 'chuva', 'chove', 'chuvoso' and 'chuvosa' were used. These terms, according to \cite{de2021effect}, are less temporally and spatially volatile and are commonly used in the city of São Paulo to refer to the phenomena of rain and flooding. Any tweets that contain one of the above words are selected and counted for the day the post was sent by the user. Then, these posts are aggregated for each of the days of the analyzed time frame. 
+\subsection{Method in the first project}\label{method}
+Firstly, all geolocated tweets from January to March 2019 within a radius of 2000 meters were extracted through API. The centroid of this ray is located in pluviometer 857A in São Paulo and the coordinates of this place can be found on the website of the institution CEMADEN. The data extracted through the Twitter API, uses the UTC format to inform the day and time of posts. Therefore, in the pre-processing of the tweets data, the date-time was converted from UTC for the América/São Paulo region. Also, to facilitate visualization and optimize the data, some unnecessary columns were removed. Finally, the date was delimited for the analyzed time window.
+
+
+With the data from the social network, the filtering of tweets was carried out from a list of words separated as associated phenomena such as meteorological (METEO) and hydrological (HIDRO) \ref{table:tabelalista}.
+
+
+\begin{table}[ht]
+	\centering
+	\caption{List of keywords.}\label{table:tabelalista}
+	\begin{tabular}{ccccc}
+		\hline 
+		\multirow{2}{*}{METEO} & chuva & rain & temporal & lightning\tabularnewline
+		& rainbow & raio & precipitacao & trovão\tabularnewline
+		\hline 
+		\multirow{2}{*}{HIDRO} & alagado & alagamento & enchente & \tabularnewline
+		& inundacao & enxente &  & \tabularnewline
+		\hline 
+	\end{tabular}
+	% 		\begin{tabular}{c|c}
+	% 			\hline
+	% 			METEO & HIDRO \\ \hline
+	% 			chuva & alagado \\
+	% 			rain & alagamento \\
+	% 			temporal & enchente \\
+	% 			lightning & enxente \\
+	% 			trovão & inundacao \\
+	% 			rainbow & - \\
+	% 			raio & - \\
+	% 			precitação & - \\ \hline
+	% 		\end{tabular}	
+\end{table}
+From the analysis of the time of occurrence of the floods using Microsoft Excel, a large portion of the floods occur between 4 pm and 8 pm. Therefore, the tweets were filtered from the list of words (Table \ref{table:tabelalista}), and in the time frame from 4:00 pm to 8:00 pm. The floods were processed through and filtered only to those belonging to the analyzed time interval.
+
+The frequency of words in the METEO and HYDRO list was also generated, separating it into two data series, number of times of occurrence in days with flooding and days without flooding. This binary classification allowed the generation of Boxplots.
+
+
+From the two series mentioned above, the MannWhitney non-parametric statistical test was applied to verify whether there is statistical relevance in the difference between the two series.
+
+Complementary, Google Maps' photos of the study area show the topography of the places.
+\subsection{Method in the second project} \label{secondmethod}
+Based on the results of the Mann Whitney test, it was possible to use new data sources by integrating with the tweets. So similarly, tweets were collected via the API. To filter the posts for the context of flooding and rain, the words 'chuva', 'chove', 'chuvoso' and 'chuvosa' were used. These terms, according to \cite{de2021effect}, are less temporally and spatially volatile and are commonly used in the city of São Paulo to refer to the phenomena of rain and flooding. Any tweets that contain one of the above words are selected and counted for the day the post was sent by the user. Then, these posts are aggregated for each of the days of the analyzed time frame. 
 
 Data from the 833A pluviometer were extracted from the website of the CEMADEN institution. The files containing the equipment information are found separated by month and measurements of all other rain gauges. In the primary treatment of the data, the files were concatenated and unified in a single DataFrame file, later only the measurements of the 833A rain gauge were filtered. This equipment, in times of absence of rain, records the information once in an hour, otherwise, in the detection of precipitation it starts measuring the rain every 10 minutes. Therefore, to analyze the rainfall data, the accumulated rainfall was calculated every 10 minutes for each day.
 
